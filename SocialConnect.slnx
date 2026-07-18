@@ -1,0 +1,14 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/SocialConnect.API/SocialConnect.API.csproj" />
+    <Project Path="src/SocialConnect.Application/SocialConnect.Application.csproj" />
+    <Project Path="src/SocialConnect.Domain/SocialConnect.Domain.csproj" />
+    <Project Path="src/SocialConnect.Infrastructure/SocialConnect.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/SocialConnect.API.Tests/SocialConnect.API.Tests.csproj" />
+    <Project Path="tests/SocialConnect.Application.Tests/SocialConnect.Application.Tests.csproj" />
+    <Project Path="tests/SocialConnect.Domain.Tests/SocialConnect.Domain.Tests.csproj" />
+    <Project Path="tests/SocialConnect.Infrastructure.Tests/SocialConnect.Infrastructure.Tests.csproj" />
+  </Folder>
+</Solution>

@@ -1,0 +1,140 @@
+2026-05-31 19:47:18.836 +05:30 [INF] Starting Hangfire Server using job storage: 'In-Memory Storage'
+2026-05-31 19:47:18.857 +05:30 [INF] Using the following options for Hangfire Server:
+    Worker count: 1
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2026-05-31 19:47:18.871 +05:30 [INF] Server laptop-7s9malf2:23580:671604c4 successfully announced in 2.5771 ms
+2026-05-31 19:47:18.873 +05:30 [INF] Server laptop-7s9malf2:23580:671604c4 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2026-05-31 19:47:18.874 +05:30 [INF] Server laptop-7s9malf2:23580:671604c4 all the dispatchers started
+2026-05-31 20:02:45.400 +05:30 [INF] Starting Hangfire Server using job storage: 'In-Memory Storage'
+2026-05-31 20:02:45.484 +05:30 [INF] Using the following options for Hangfire Server:
+    Worker count: 1
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2026-05-31 20:02:45.547 +05:30 [INF] Server laptop-7s9malf2:2948:53ad6c56 successfully announced in 11.0539 ms
+2026-05-31 20:02:45.552 +05:30 [INF] Server laptop-7s9malf2:2948:53ad6c56 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2026-05-31 20:02:45.556 +05:30 [INF] Server laptop-7s9malf2:2948:53ad6c56 all the dispatchers started
+2026-05-31 20:04:57.056 +05:30 [INF] Server laptop-7s9malf2:2948:53ad6c56 caught stopping signal...
+2026-05-31 20:04:57.059 +05:30 [INF] Server laptop-7s9malf2:2948:53ad6c56 All dispatchers stopped
+2026-05-31 20:04:57.061 +05:30 [INF] Server laptop-7s9malf2:2948:53ad6c56 successfully reported itself as stopped in 0.9311 ms
+2026-05-31 20:04:57.061 +05:30 [INF] Server laptop-7s9malf2:2948:53ad6c56 has been stopped in total 4.7105 ms
+2026-05-31 20:06:16.800 +05:30 [WRN] Entity 'Message' has a global query filter defined and is the required end of a relationship with the entity 'MessageAttachment'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-05-31 20:06:16.824 +05:30 [WRN] Entity 'Post' has a global query filter defined and is the required end of a relationship with the entity 'PostMedia'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-05-31 20:06:18.311 +05:30 [ERR] Failed executing DbCommand (19ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Notifications] (
+    [Id] uniqueidentifier NOT NULL,
+    [UserId] uniqueidentifier NOT NULL,
+    [ActorId] uniqueidentifier NOT NULL,
+    [Type] int NOT NULL,
+    [TargetId] uniqueidentifier NULL,
+    [TargetType] nvarchar(max) NULL,
+    [Content] nvarchar(max) NOT NULL,
+    [IsRead] bit NOT NULL,
+    [ReadAt] datetimeoffset NULL,
+    [CreatedAt] datetimeoffset NOT NULL,
+    CONSTRAINT [PK_Notifications] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Notifications_Users_ActorId] FOREIGN KEY ([ActorId]) REFERENCES [Users] ([Id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_Notifications_Users_UserId] FOREIGN KEY ([UserId]) REFERENCES [Users] ([Id]) ON DELETE CASCADE
+);
+2026-05-31 20:06:18.325 +05:30 [ERR] An error occurred while migrating the database.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Introducing FOREIGN KEY constraint 'FK_Notifications_Users_UserId' on table 'Notifications' may cause cycles or multiple cascade paths. Specify ON DELETE NO ACTION or ON UPDATE NO ACTION, or modify other FOREIGN KEY constraints.
+Could not create constraint or index. See previous errors.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlCommand.InternalEndExecuteNonQuery(IAsyncResult asyncResult, Boolean isInternal, String endMethod)
+   at Microsoft.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   at Microsoft.Data.SqlClient.SqlCommand.EndExecuteNonQueryAsync(IAsyncResult asyncResult)
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<InternalExecuteNonQueryAsync>b__210_1(IAsyncResult result)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteNonQueryAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteNonQueryAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteNonQueryAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Migrations.Internal.MigrationCommandExecutor.ExecuteAsync(IReadOnlyList`1 migrationCommands, IRelationalConnection connection, MigrationExecutionState executionState, Boolean beginTransaction, Boolean commitTransaction, Nullable`1 isolationLevel, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Migrations.Internal.MigrationCommandExecutor.ExecuteAsync(IReadOnlyList`1 migrationCommands, IRelationalConnection connection, MigrationExecutionState executionState, Boolean beginTransaction, Boolean commitTransaction, Nullable`1 isolationLevel, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Migrations.Internal.MigrationCommandExecutor.ExecuteNonQueryAsync(IReadOnlyList`1 migrationCommands, IRelationalConnection connection, MigrationExecutionState executionState, Boolean commitTransaction, Nullable`1 isolationLevel, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Migrations.Internal.Migrator.MigrateImplementationAsync(DbContext context, String targetMigration, MigrationExecutionState state, Boolean useTransaction, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Migrations.Internal.Migrator.MigrateImplementationAsync(DbContext context, String targetMigration, MigrationExecutionState state, Boolean useTransaction, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Migrations.Internal.Migrator.<>c.<<MigrateAsync>b__22_1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Migrations.Internal.Migrator.MigrateAsync(String targetMigration, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Migrations.Internal.Migrator.MigrateAsync(String targetMigration, CancellationToken cancellationToken)
+   at Program.<Main>$(String[] args) in D:\AJITH_KUMAR\SocialConnect\src\SocialConnect.API\Program.cs:line 120
+ClientConnectionId:c5290917-fd9a-4630-a6ca-0e18192554be
+Error Number:1785,State:0,Class:16
+2026-05-31 20:06:18.457 +05:30 [INF] Starting Hangfire Server using job storage: 'In-Memory Storage'
+2026-05-31 20:06:18.458 +05:30 [INF] Using the following options for Hangfire Server:
+    Worker count: 1
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2026-05-31 20:06:18.469 +05:30 [INF] Server laptop-7s9malf2:23844:af3190c6 successfully announced in 2.1657 ms
+2026-05-31 20:06:18.471 +05:30 [INF] Server laptop-7s9malf2:23844:af3190c6 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2026-05-31 20:06:18.474 +05:30 [INF] Server laptop-7s9malf2:23844:af3190c6 all the dispatchers started
+2026-05-31 20:08:33.350 +05:30 [WRN] Entity 'Message' has a global query filter defined and is the required end of a relationship with the entity 'MessageAttachment'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-05-31 20:08:33.387 +05:30 [WRN] Entity 'Post' has a global query filter defined and is the required end of a relationship with the entity 'PostMedia'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-05-31 20:08:33.605 +05:30 [ERR] An error occurred while migrating the database.
+System.InvalidOperationException: An error was generated for warning 'Microsoft.EntityFrameworkCore.Migrations.PendingModelChangesWarning': The model for context 'ApplicationDbContext' has pending changes. Add a new migration before updating the database. This exception can be suppressed or logged by passing event ID 'RelationalEventId.PendingModelChangesWarning' to the 'ConfigureWarnings' method in 'DbContext.OnConfiguring' or 'AddDbContext'.
+   at Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`1.Log[TLoggerCategory](IDiagnosticsLogger`1 logger, TParam arg)
+   at Microsoft.EntityFrameworkCore.Diagnostics.RelationalLoggerExtensions.PendingModelChangesWarning(IDiagnosticsLogger`1 diagnostics, Type contextType)
+   at Microsoft.EntityFrameworkCore.Migrations.Internal.Migrator.MigrateAsync(String targetMigration, CancellationToken cancellationToken)
+   at Program.<Main>$(String[] args) in D:\AJITH_KUMAR\SocialConnect\src\SocialConnect.API\Program.cs:line 120
+2026-05-31 20:08:33.744 +05:30 [INF] Starting Hangfire Server using job storage: 'In-Memory Storage'
+2026-05-31 20:08:33.745 +05:30 [INF] Using the following options for Hangfire Server:
+    Worker count: 1
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2026-05-31 20:08:33.760 +05:30 [INF] Server laptop-7s9malf2:23672:22224fca successfully announced in 2.219 ms
+2026-05-31 20:08:33.761 +05:30 [INF] Server laptop-7s9malf2:23672:22224fca is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2026-05-31 20:08:33.763 +05:30 [INF] Server laptop-7s9malf2:23672:22224fca all the dispatchers started
+2026-05-31 20:09:41.775 +05:30 [WRN] Entity 'Message' has a global query filter defined and is the required end of a relationship with the entity 'MessageAttachment'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-05-31 20:09:41.799 +05:30 [WRN] Entity 'Post' has a global query filter defined and is the required end of a relationship with the entity 'PostMedia'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-05-31 20:09:42.656 +05:30 [INF] Database migration applied successfully.
+2026-05-31 20:09:42.767 +05:30 [INF] Starting Hangfire Server using job storage: 'In-Memory Storage'
+2026-05-31 20:09:42.767 +05:30 [INF] Using the following options for Hangfire Server:
+    Worker count: 1
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2026-05-31 20:09:42.782 +05:30 [INF] Server laptop-7s9malf2:7860:91c7ae71 successfully announced in 2.2443 ms
+2026-05-31 20:09:42.784 +05:30 [INF] Server laptop-7s9malf2:7860:91c7ae71 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2026-05-31 20:09:42.785 +05:30 [INF] Server laptop-7s9malf2:7860:91c7ae71 all the dispatchers started
+2026-05-31 20:14:54.817 +05:30 [WRN] Entity 'Message' has a global query filter defined and is the required end of a relationship with the entity 'MessageAttachment'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-05-31 20:14:54.840 +05:30 [WRN] Entity 'Post' has a global query filter defined and is the required end of a relationship with the entity 'PostMedia'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-05-31 20:14:55.206 +05:30 [INF] Database migration applied successfully.
+2026-05-31 20:14:55.302 +05:30 [INF] Starting Hangfire Server using job storage: 'In-Memory Storage'
+2026-05-31 20:14:55.304 +05:30 [INF] Using the following options for Hangfire Server:
+    Worker count: 1
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2026-05-31 20:14:55.323 +05:30 [INF] Server laptop-7s9malf2:9772:1c02e324 successfully announced in 3.7809 ms
+2026-05-31 20:14:55.325 +05:30 [INF] Server laptop-7s9malf2:9772:1c02e324 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2026-05-31 20:14:55.327 +05:30 [INF] Server laptop-7s9malf2:9772:1c02e324 all the dispatchers started
+2026-05-31 20:19:04.889 +05:30 [INF] Server laptop-7s9malf2:9772:1c02e324 caught stopping signal...
+2026-05-31 20:19:04.891 +05:30 [INF] Server laptop-7s9malf2:9772:1c02e324 All dispatchers stopped
+2026-05-31 20:19:04.892 +05:30 [INF] Server laptop-7s9malf2:9772:1c02e324 successfully reported itself as stopped in 0.4497 ms
+2026-05-31 20:19:04.893 +05:30 [INF] Server laptop-7s9malf2:9772:1c02e324 has been stopped in total 3.4505 ms
+2026-05-31 23:22:34.258 +05:30 [WRN] Entity 'Message' has a global query filter defined and is the required end of a relationship with the entity 'MessageAttachment'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-05-31 23:22:34.287 +05:30 [WRN] Entity 'Post' has a global query filter defined and is the required end of a relationship with the entity 'PostMedia'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-05-31 23:22:35.081 +05:30 [INF] Database migration applied successfully.
+2026-05-31 23:22:35.690 +05:30 [INF] Starting Hangfire Server using job storage: 'In-Memory Storage'
+2026-05-31 23:22:35.691 +05:30 [INF] Using the following options for Hangfire Server:
+    Worker count: 1
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2026-05-31 23:22:35.723 +05:30 [INF] Server laptop-7s9malf2:24920:c2b3ca19 successfully announced in 2.4317 ms
+2026-05-31 23:22:35.734 +05:30 [INF] Server laptop-7s9malf2:24920:c2b3ca19 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2026-05-31 23:22:35.807 +05:30 [INF] Server laptop-7s9malf2:24920:c2b3ca19 all the dispatchers started
+2026-05-31 23:25:02.940 +05:30 [INF] Server laptop-7s9malf2:24920:c2b3ca19 caught stopping signal...
+2026-05-31 23:25:03.030 +05:30 [INF] Server laptop-7s9malf2:24920:c2b3ca19 All dispatchers stopped
+2026-05-31 23:25:03.049 +05:30 [INF] Server laptop-7s9malf2:24920:c2b3ca19 successfully reported itself as stopped in 0.5909 ms
+2026-05-31 23:25:03.050 +05:30 [INF] Server laptop-7s9malf2:24920:c2b3ca19 has been stopped in total 104.2112 ms

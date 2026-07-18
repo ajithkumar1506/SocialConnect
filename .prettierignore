@@ -1,0 +1,13 @@
+# Build outputs
+obj/
+bin/
+
+# IDE
+.vs/
+.idea/
+*.user
+
+# Prettier ignores C# files because we use CSharpier for them
+*.cs
+*.csproj
+*.sln

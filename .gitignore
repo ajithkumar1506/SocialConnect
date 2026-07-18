@@ -1,0 +1,29 @@
+# Visual Studio / .NET
+[Oo]bj/
+[Bb]in/
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.userprefs
+*.DS_Store
+.idea/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Docker
+.docker/
+docker-compose.override.yml
+
+# Test coverage
+TestResults/
+coverage/
+*.coverage
+
+# Rider
+.idea/
+*.sln.iml

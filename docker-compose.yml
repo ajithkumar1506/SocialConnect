@@ -1,0 +1,107 @@
+services:
+  api:
+    image: socialconnect.api
+    build:
+      context: .
+      dockerfile: src/SocialConnect.API/Dockerfile
+    depends_on:
+      redis:
+        condition: service_healthy
+      sqlserver:
+        condition: service_healthy
+      rabbitmq:
+        condition: service_healthy
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - '5000:8080'
+    networks:
+      - socialconnect-network
+
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    container_name: socialconnect-sqlserver
+    environment:
+      - ACCEPT_EULA=Y
+      - SA_PASSWORD=Ajith2609@
+    ports:
+      - '1433:1433'
+    volumes:
+      - sqlserver-data:/var/opt/mssql
+    networks:
+      - socialconnect-network
+    healthcheck:
+      test:
+        [
+          'CMD',
+          '/opt/mssql-tools18/bin/sqlcmd',
+          '-S',
+          '127.0.0.1',
+          '-U',
+          'sa',
+          '-P',
+          'Ajith2609@',
+          '-C',
+          '-Q',
+          'SELECT 1',
+        ]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  redis:
+    image: redis:7-alpine
+    ports:
+      - '6379:6379'
+    volumes:
+      - redis-data:/data
+    networks:
+      - socialconnect-network
+    healthcheck:
+      test: ['CMD', 'redis-cli', 'ping']
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  rabbitmq:
+    image: rabbitmq:3-management-alpine
+    container_name: socialconnect-rabbitmq
+    ports:
+      - '56722:5672'
+      - '15673:15672'
+    volumes:
+      - ./rabbitmq.conf:/etc/rabbitmq/rabbitmq.conf
+    networks:
+      - socialconnect-network
+    healthcheck:
+      test: ['CMD', 'rabbitmq-diagnostics', '-q', 'ping']
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  s3ninja:
+    image: scireum/s3-ninja:latest
+    ports:
+      - '9444:9000'
+    volumes:
+      - s3ninja-data:/home/sirius/data
+    networks:
+      - socialconnect-network
+
+  mailhog:
+    image: mailhog/mailhog
+    ports:
+      - '1025:1025'
+      - '8025:8025'
+    networks:
+      - socialconnect-network
+
+volumes:
+  redis-data:
+  s3ninja-data:
+  sqlserver-data:
+
+networks:
+  socialconnect-network:
+    driver: bridge
+
