@@ -1,4 +1,4 @@
-# SocialConnect
+# Social_Connect
 
 <div align="center">
   <h3>A modern, scalable Modular Monolith built with .NET 9</h3>
