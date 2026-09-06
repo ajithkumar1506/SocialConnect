@@ -20,7 +20,7 @@ services:
 
   sqlserver:
     image: mcr.microsoft.com/mssql/server:2019-latest
-    container_name: socialconnect-sqlserver
+    container_name: sqlserver
     environment:
       - ACCEPT_EULA=Y
       - SA_PASSWORD=Ajith2609@
@@ -65,7 +65,7 @@ services:
 
   rabbitmq:
     image: rabbitmq:3-management-alpine
-    container_name: socialconnect-rabbitmq
+    container_name: rabbitmq
     ports:
       - '56722:5672'
       - '15673:15672'
