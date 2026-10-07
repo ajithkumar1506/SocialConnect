@@ -1,0 +1,2384 @@
+{
+  ".csharpierrc.json": {
+    "mtime": 1785062400.978283,
+    "seen": 1791357795.7960649,
+    "ast_hash": "961cbc238e92b3a3d137c34cd30d1337",
+    "semantic_hash": "961cbc238e92b3a3d137c34cd30d1337"
+  },
+  ".vscode/extensions.json": {
+    "mtime": 1785062400.978283,
+    "seen": 1791357795.79607,
+    "ast_hash": "c8993f13ac77484a4028dc91a6035e86",
+    "semantic_hash": "c8993f13ac77484a4028dc91a6035e86"
+  },
+  ".vscode/settings.json": {
+    "mtime": 1785062400.978283,
+    "seen": 1791357795.7960727,
+    "ast_hash": "4b54d426ed607585b1c2b939933fddaa",
+    "semantic_hash": "4b54d426ed607585b1c2b939933fddaa"
+  },
+  "SocialConnect.slnx": {
+    "mtime": 1785062400.978283,
+    "seen": 1791357795.796074,
+    "ast_hash": "a7b5aa982a438d2ba9cfc9a6aaa4f982",
+    "semantic_hash": "a7b5aa982a438d2ba9cfc9a6aaa4f982"
+  },
+  "dotnet-tools.json": {
+    "mtime": 1785062400.978283,
+    "seen": 1791357795.796075,
+    "ast_hash": "90aea3e32baa99039cfa5e938e946a39",
+    "semantic_hash": "90aea3e32baa99039cfa5e938e946a39"
+  },
+  "global.json": {
+    "mtime": 1785062400.978283,
+    "seen": 1791357795.7960763,
+    "ast_hash": "a9a5ece4a44ab7f423811d0613e020a1",
+    "semantic_hash": "a9a5ece4a44ab7f423811d0613e020a1"
+  },
+  "src/SocialConnect.API/Configuration/DatabaseMigrationConfigurator.cs": {
+    "mtime": 1785062400.978283,
+    "seen": 1791357795.7960775,
+    "ast_hash": "e037e7a9727d1f505e8f91644bc8772d",
+    "semantic_hash": "e037e7a9727d1f505e8f91644bc8772d"
+  },
+  "src/SocialConnect.API/Configuration/EnvironmentConfigurator.cs": {
+    "mtime": 1785062400.978283,
+    "seen": 1791357795.796079,
+    "ast_hash": "33eb3b77adc389d859eae61977fb5fcb",
+    "semantic_hash": "33eb3b77adc389d859eae61977fb5fcb"
+  },
+  "src/SocialConnect.API/Configuration/JwtAuthenticationConfigurator.cs": {
+    "mtime": 1785062400.978283,
+    "seen": 1791357795.7960799,
+    "ast_hash": "bd08b615f0b4bfac2997762d9a5a30ec",
+    "semantic_hash": "bd08b615f0b4bfac2997762d9a5a30ec"
+  },
+  "src/SocialConnect.API/Configuration/SwaggerDocumentationConfigurator.cs": {
+    "mtime": 1785062400.978283,
+    "seen": 1791357795.7960806,
+    "ast_hash": "cb9e4b6f855e5c13c022f9c4f49f66ae",
+    "semantic_hash": "cb9e4b6f855e5c13c022f9c4f49f66ae"
+  },
+  "src/SocialConnect.API/Controllers/ApiControllerBase.cs": {
+    "mtime": 1785062400.978283,
+    "seen": 1791357795.7960818,
+    "ast_hash": "ef24cf7210d3ef6c995abb382fe229bf",
+    "semantic_hash": "ef24cf7210d3ef6c995abb382fe229bf"
+  },
+  "src/SocialConnect.API/Controllers/AuthController.cs": {
+    "mtime": 1785062400.978283,
+    "seen": 1791357795.796083,
+    "ast_hash": "037840d42b79cd7f9e96832089daba9f",
+    "semantic_hash": "037840d42b79cd7f9e96832089daba9f"
+  },
+  "src/SocialConnect.API/Controllers/CommentsController.cs": {
+    "mtime": 1785062400.978283,
+    "seen": 1791357795.7960842,
+    "ast_hash": "e1e05a89a4f46cffad9e052a7eaa8fbf",
+    "semantic_hash": "e1e05a89a4f46cffad9e052a7eaa8fbf"
+  },
+  "src/SocialConnect.API/Controllers/MessagesController.cs": {
+    "mtime": 1785062400.978283,
+    "seen": 1791357795.796085,
+    "ast_hash": "1af74208235b3e3eda510f71e90a50ee",
+    "semantic_hash": "1af74208235b3e3eda510f71e90a50ee"
+  },
+  "src/SocialConnect.API/Controllers/NotificationsController.cs": {
+    "mtime": 1785062400.978283,
+    "seen": 1791357795.796086,
+    "ast_hash": "f184125b3fbe6bf375724eedaf3e68e2",
+    "semantic_hash": "f184125b3fbe6bf375724eedaf3e68e2"
+  },
+  "src/SocialConnect.API/Controllers/PostsController.cs": {
+    "mtime": 1785062400.9869275,
+    "seen": 1791357795.796087,
+    "ast_hash": "7a91f2eb4fef68a06909fbc0078f52c7",
+    "semantic_hash": "7a91f2eb4fef68a06909fbc0078f52c7"
+  },
+  "src/SocialConnect.API/Controllers/ReactionsController.cs": {
+    "mtime": 1785062400.9869275,
+    "seen": 1791357795.796088,
+    "ast_hash": "908bcf2c29a93aa2e1387362e62c3cfe",
+    "semantic_hash": "908bcf2c29a93aa2e1387362e62c3cfe"
+  },
+  "src/SocialConnect.API/Controllers/SocialController.cs": {
+    "mtime": 1785062400.9869275,
+    "seen": 1791357795.7960892,
+    "ast_hash": "ea0844d2d04fd3162dd34b75804ee355",
+    "semantic_hash": "ea0844d2d04fd3162dd34b75804ee355"
+  },
+  "src/SocialConnect.API/Controllers/UsersController.cs": {
+    "mtime": 1785062400.987952,
+    "seen": 1791357795.7960901,
+    "ast_hash": "6f5a8e7ab09ce8a7f29eae5c506c4fb7",
+    "semantic_hash": "6f5a8e7ab09ce8a7f29eae5c506c4fb7"
+  },
+  "src/SocialConnect.API/Hubs/ChatHub.cs": {
+    "mtime": 1785062400.987952,
+    "seen": 1791357795.796091,
+    "ast_hash": "fb4ee6b0e4d74d62b5bedc547dba7948",
+    "semantic_hash": "fb4ee6b0e4d74d62b5bedc547dba7948"
+  },
+  "src/SocialConnect.API/Hubs/NotificationHub.cs": {
+    "mtime": 1785062400.987952,
+    "seen": 1791357795.7960918,
+    "ast_hash": "7804d14c343d384e47f75e3894e76465",
+    "semantic_hash": "7804d14c343d384e47f75e3894e76465"
+  },
+  "src/SocialConnect.API/Hubs/PresenceHub.cs": {
+    "mtime": 1785062400.987952,
+    "seen": 1791357795.796093,
+    "ast_hash": "5206a9fb4fcfcc6b4282d478588a9a25",
+    "semantic_hash": "5206a9fb4fcfcc6b4282d478588a9a25"
+  },
+  "src/SocialConnect.API/Infrastructure/ExceptionHandling/GlobalExceptionHandler.cs": {
+    "mtime": 1785062400.987952,
+    "seen": 1791357795.7960944,
+    "ast_hash": "a82a21f5c0697a24e574b2ab68f27392",
+    "semantic_hash": "a82a21f5c0697a24e574b2ab68f27392"
+  },
+  "src/SocialConnect.API/Models/UpdatePostRequest.cs": {
+    "mtime": 1785062400.9894576,
+    "seen": 1791357795.7960951,
+    "ast_hash": "6d99cc4bb5e60a807d4466572ee84eee",
+    "semantic_hash": "6d99cc4bb5e60a807d4466572ee84eee"
+  },
+  "src/SocialConnect.API/Program.cs": {
+    "mtime": 1785062400.9894576,
+    "seen": 1791357795.796096,
+    "ast_hash": "991403c90aaaf84cb9bbac1ef97558a8",
+    "semantic_hash": "991403c90aaaf84cb9bbac1ef97558a8"
+  },
+  "src/SocialConnect.API/Properties/launchSettings.json": {
+    "mtime": 1785062400.9894576,
+    "seen": 1791357795.796097,
+    "ast_hash": "8c7095d11fb219a885e737e5c1f8d7fe",
+    "semantic_hash": "8c7095d11fb219a885e737e5c1f8d7fe"
+  },
+  "src/SocialConnect.API/Services/CurrentUserService.cs": {
+    "mtime": 1785062400.9894576,
+    "seen": 1791357795.796098,
+    "ast_hash": "ca2a354589478ae30b25be797f53f921",
+    "semantic_hash": "ca2a354589478ae30b25be797f53f921"
+  },
+  "src/SocialConnect.API/Services/NotificationService.cs": {
+    "mtime": 1785062400.9894576,
+    "seen": 1791357795.7960992,
+    "ast_hash": "9cb04fdb421a3fa445dedcc460d5a7f1",
+    "semantic_hash": "9cb04fdb421a3fa445dedcc460d5a7f1"
+  },
+  "src/SocialConnect.API/SocialConnect.API.csproj": {
+    "mtime": 1785062400.9894576,
+    "seen": 1791357795.7961001,
+    "ast_hash": "957d76f82a802140e37610af1942a798",
+    "semantic_hash": "957d76f82a802140e37610af1942a798"
+  },
+  "src/SocialConnect.API/appsettings.Development.json": {
+    "mtime": 1788675824.6010175,
+    "seen": 1791357795.796101,
+    "ast_hash": "916430331d2faeb939dc65179e8c68a6",
+    "semantic_hash": "916430331d2faeb939dc65179e8c68a6"
+  },
+  "src/SocialConnect.API/appsettings.json": {
+    "mtime": 1785062400.9894576,
+    "seen": 1791357795.7961018,
+    "ast_hash": "83950d7566180616266ed4f54929ebdf",
+    "semantic_hash": "83950d7566180616266ed4f54929ebdf"
+  },
+  "src/SocialConnect.Application/BackgroundJobs/EmailSendingJob.cs": {
+    "mtime": 1785062400.9894576,
+    "seen": 1791357795.7961032,
+    "ast_hash": "43f41cca04d8ca3dc8be664f1b35d928",
+    "semantic_hash": "43f41cca04d8ca3dc8be664f1b35d928"
+  },
+  "src/SocialConnect.Application/BackgroundJobs/NotificationProcessingJob.cs": {
+    "mtime": 1785062400.9894576,
+    "seen": 1791357795.7961037,
+    "ast_hash": "c8ae0d869871a9248827d521aa0d03c4",
+    "semantic_hash": "c8ae0d869871a9248827d521aa0d03c4"
+  },
+  "src/SocialConnect.Application/Common/Behaviors/LoggingBehavior.cs": {
+    "mtime": 1785062400.9894576,
+    "seen": 1791357795.7961047,
+    "ast_hash": "b50d17201f8be1466627a39ea1581879",
+    "semantic_hash": "b50d17201f8be1466627a39ea1581879"
+  },
+  "src/SocialConnect.Application/Common/Behaviors/PerformanceBehavior.cs": {
+    "mtime": 1785062400.9894576,
+    "seen": 1791357795.7961054,
+    "ast_hash": "e69f63c22283cd3efa5319e586e80f9c",
+    "semantic_hash": "e69f63c22283cd3efa5319e586e80f9c"
+  },
+  "src/SocialConnect.Application/Common/Behaviors/UnhandledExceptionBehavior.cs": {
+    "mtime": 1785062400.9894576,
+    "seen": 1791357795.7961066,
+    "ast_hash": "7e803720bce6c81627a755b0bfddaad2",
+    "semantic_hash": "7e803720bce6c81627a755b0bfddaad2"
+  },
+  "src/SocialConnect.Application/Common/Behaviors/ValidationBehavior.cs": {
+    "mtime": 1785062400.9894576,
+    "seen": 1791357795.7961075,
+    "ast_hash": "0ccdb4f71a3366b4a9fd655001e9bd48",
+    "semantic_hash": "0ccdb4f71a3366b4a9fd655001e9bd48"
+  },
+  "src/SocialConnect.Application/Common/Exceptions/ForbiddenAccessException.cs": {
+    "mtime": 1785062400.9894576,
+    "seen": 1791357795.7961087,
+    "ast_hash": "e422b02ab14178f4f7f89bc3e996a89f",
+    "semantic_hash": "e422b02ab14178f4f7f89bc3e996a89f"
+  },
+  "src/SocialConnect.Application/Common/Exceptions/NotFoundException.cs": {
+    "mtime": 1785062400.9894576,
+    "seen": 1791357795.79611,
+    "ast_hash": "32fa4fda8a169b9c6086b24834ffd1d8",
+    "semantic_hash": "32fa4fda8a169b9c6086b24834ffd1d8"
+  },
+  "src/SocialConnect.Application/Common/Exceptions/ValidationException.cs": {
+    "mtime": 1785062400.9894576,
+    "seen": 1791357795.7961106,
+    "ast_hash": "f4506125e407db2b56e35e1d42bf4289",
+    "semantic_hash": "f4506125e407db2b56e35e1d42bf4289"
+  },
+  "src/SocialConnect.Application/Common/Helpers/ImageMetadataReader.cs": {
+    "mtime": 1785062400.9894576,
+    "seen": 1791357795.7961116,
+    "ast_hash": "96f30d776587acf63f96c89047af1ece",
+    "semantic_hash": "96f30d776587acf63f96c89047af1ece"
+  },
+  "src/SocialConnect.Application/Common/Interfaces/IApplicationDbContext.cs": {
+    "mtime": 1785062400.9894576,
+    "seen": 1791357795.7961125,
+    "ast_hash": "5985f26e501b3233a723c25652a7ddfe",
+    "semantic_hash": "5985f26e501b3233a723c25652a7ddfe"
+  },
+  "src/SocialConnect.Application/Common/Interfaces/IBackgroundJobService.cs": {
+    "mtime": 1785062400.9894576,
+    "seen": 1791357795.796114,
+    "ast_hash": "ce0ee340f14b2330640ef1ea9ec9c726",
+    "semantic_hash": "ce0ee340f14b2330640ef1ea9ec9c726"
+  },
+  "src/SocialConnect.Application/Common/Interfaces/ICacheService.cs": {
+    "mtime": 1785062400.9894576,
+    "seen": 1791357795.7961154,
+    "ast_hash": "81811a970206d6e2189abcb47808921a",
+    "semantic_hash": "81811a970206d6e2189abcb47808921a"
+  },
+  "src/SocialConnect.Application/Common/Interfaces/ICurrentUserService.cs": {
+    "mtime": 1785062400.9894576,
+    "seen": 1791357795.7961166,
+    "ast_hash": "ff6593025b56e5ceed49af952cb37064",
+    "semantic_hash": "ff6593025b56e5ceed49af952cb37064"
+  },
+  "src/SocialConnect.Application/Common/Interfaces/IDateTime.cs": {
+    "mtime": 1785062400.9894576,
+    "seen": 1791357795.7961175,
+    "ast_hash": "803e441daab4dfe59b5756feca4fdb77",
+    "semantic_hash": "803e441daab4dfe59b5756feca4fdb77"
+  },
+  "src/SocialConnect.Application/Common/Interfaces/IEmailService.cs": {
+    "mtime": 1785062400.9894576,
+    "seen": 1791357795.7961185,
+    "ast_hash": "3aca8b0162547b9b01e1d0d4b9cd4090",
+    "semantic_hash": "3aca8b0162547b9b01e1d0d4b9cd4090"
+  },
+  "src/SocialConnect.Application/Common/Interfaces/IEventBus.cs": {
+    "mtime": 1785062400.9894576,
+    "seen": 1791357795.7961195,
+    "ast_hash": "cd0a6c2ce1e7e4a199dd037ce1e17d2a",
+    "semantic_hash": "cd0a6c2ce1e7e4a199dd037ce1e17d2a"
+  },
+  "src/SocialConnect.Application/Common/Interfaces/IFileStorageService.cs": {
+    "mtime": 1785062400.9894576,
+    "seen": 1791357795.7961204,
+    "ast_hash": "9ad5be588ba16dcc994427706e757ed1",
+    "semantic_hash": "9ad5be588ba16dcc994427706e757ed1"
+  },
+  "src/SocialConnect.Application/Common/Interfaces/IIdentityService.cs": {
+    "mtime": 1785062400.9894576,
+    "seen": 1791357795.7961216,
+    "ast_hash": "017aee1da1ad6dec91d673c48dc2b422",
+    "semantic_hash": "017aee1da1ad6dec91d673c48dc2b422"
+  },
+  "src/SocialConnect.Application/Common/Interfaces/INotificationService.cs": {
+    "mtime": 1785062400.9894576,
+    "seen": 1791357795.7961228,
+    "ast_hash": "1a95b5b9f96a3676aa51d5f92e67ce0e",
+    "semantic_hash": "1a95b5b9f96a3676aa51d5f92e67ce0e"
+  },
+  "src/SocialConnect.Application/Common/Interfaces/IPasswordHasher.cs": {
+    "mtime": 1785062400.9894576,
+    "seen": 1791357795.7961237,
+    "ast_hash": "607d64fc4c51f13d953c0544c8a59c98",
+    "semantic_hash": "607d64fc4c51f13d953c0544c8a59c98"
+  },
+  "src/SocialConnect.Application/Common/Interfaces/ITokenService.cs": {
+    "mtime": 1785062400.9894576,
+    "seen": 1791357795.7961247,
+    "ast_hash": "360ee9067b115446e33e11aa08e91aaf",
+    "semantic_hash": "360ee9067b115446e33e11aa08e91aaf"
+  },
+  "src/SocialConnect.Application/Common/Mappings/MappingProfile.cs": {
+    "mtime": 1785062400.9894576,
+    "seen": 1791357795.7961257,
+    "ast_hash": "d29a6cbb8393d0bb702fdddbcc772c11",
+    "semantic_hash": "d29a6cbb8393d0bb702fdddbcc772c11"
+  },
+  "src/SocialConnect.Application/Common/Models/ApiResponse.cs": {
+    "mtime": 1785062400.9894576,
+    "seen": 1791357795.796127,
+    "ast_hash": "c5369ea87eea05f3cee2fb0fb5aba50c",
+    "semantic_hash": "c5369ea87eea05f3cee2fb0fb5aba50c"
+  },
+  "src/SocialConnect.Application/Common/Models/AuthResult.cs": {
+    "mtime": 1785062400.9894576,
+    "seen": 1791357795.7961278,
+    "ast_hash": "525bde64097e7d5e19a014ff4110d584",
+    "semantic_hash": "525bde64097e7d5e19a014ff4110d584"
+  },
+  "src/SocialConnect.Application/Common/Models/ClientSettings.cs": {
+    "mtime": 1785062400.9894576,
+    "seen": 1791357795.7961285,
+    "ast_hash": "bd945644b948494c4347c4a3dfb8f657",
+    "semantic_hash": "bd945644b948494c4347c4a3dfb8f657"
+  },
+  "src/SocialConnect.Application/Common/Models/CursorPaginatedList.cs": {
+    "mtime": 1785062400.9894576,
+    "seen": 1791357795.7961295,
+    "ast_hash": "6397dd6855e207299597c751db8e1f5e",
+    "semantic_hash": "6397dd6855e207299597c751db8e1f5e"
+  },
+  "src/SocialConnect.Application/Common/Models/PaginatedList.cs": {
+    "mtime": 1785062400.9894576,
+    "seen": 1791357795.7961304,
+    "ast_hash": "e17d48f8359a926c4d1dda5ec7c9f0b3",
+    "semantic_hash": "e17d48f8359a926c4d1dda5ec7c9f0b3"
+  },
+  "src/SocialConnect.Application/Common/Models/Result.cs": {
+    "mtime": 1785062400.9894576,
+    "seen": 1791357795.7961316,
+    "ast_hash": "7ab086ce06b872750fff6ac7858324ab",
+    "semantic_hash": "7ab086ce06b872750fff6ac7858324ab"
+  },
+  "src/SocialConnect.Application/Common/Models/ResultGeneric.cs": {
+    "mtime": 1785062400.9894576,
+    "seen": 1791357795.7961326,
+    "ast_hash": "5e5b6d32bc6b1e35a317e99459df9510",
+    "semantic_hash": "5e5b6d32bc6b1e35a317e99459df9510"
+  },
+  "src/SocialConnect.Application/DependencyInjection.cs": {
+    "mtime": 1785062400.9894576,
+    "seen": 1791357795.7961335,
+    "ast_hash": "ed928eeb0cd391bbbc01805d38dce6fc",
+    "semantic_hash": "ed928eeb0cd391bbbc01805d38dce6fc"
+  },
+  "src/SocialConnect.Application/Features/Auth/Commands/ChangePassword/ChangePasswordCommand.cs": {
+    "mtime": 1785062400.9894576,
+    "seen": 1791357795.7961345,
+    "ast_hash": "19117f729665a5a383ddcd103ce30297",
+    "semantic_hash": "19117f729665a5a383ddcd103ce30297"
+  },
+  "src/SocialConnect.Application/Features/Auth/Commands/ChangePassword/ChangePasswordCommandHandler.cs": {
+    "mtime": 1785062400.9894576,
+    "seen": 1791357795.796135,
+    "ast_hash": "375abace9020be40f1e09874d3cd8b68",
+    "semantic_hash": "375abace9020be40f1e09874d3cd8b68"
+  },
+  "src/SocialConnect.Application/Features/Auth/Commands/ChangePassword/ChangePasswordCommandValidator.cs": {
+    "mtime": 1785062400.9894576,
+    "seen": 1791357795.796136,
+    "ast_hash": "38f8ff23359b397fc51a4d0fec8854c3",
+    "semantic_hash": "38f8ff23359b397fc51a4d0fec8854c3"
+  },
+  "src/SocialConnect.Application/Features/Auth/Commands/ForgotPassword/ForgotPasswordCommand.cs": {
+    "mtime": 1785062400.9894576,
+    "seen": 1791357795.7961373,
+    "ast_hash": "27e248090cc02bb2016970d70674679c",
+    "semantic_hash": "27e248090cc02bb2016970d70674679c"
+  },
+  "src/SocialConnect.Application/Features/Auth/Commands/ForgotPassword/ForgotPasswordCommandHandler.cs": {
+    "mtime": 1785062400.9894576,
+    "seen": 1791357795.796138,
+    "ast_hash": "255ed26d9a98d14ad98a64b912d05242",
+    "semantic_hash": "255ed26d9a98d14ad98a64b912d05242"
+  },
+  "src/SocialConnect.Application/Features/Auth/Commands/ForgotPassword/ForgotPasswordCommandValidator.cs": {
+    "mtime": 1785062400.9894576,
+    "seen": 1791357795.796139,
+    "ast_hash": "7412ee768d1e81bb14fa7b5bf66f7429",
+    "semantic_hash": "7412ee768d1e81bb14fa7b5bf66f7429"
+  },
+  "src/SocialConnect.Application/Features/Auth/Commands/Login/LoginCommand.cs": {
+    "mtime": 1785062400.9894576,
+    "seen": 1791357795.7961397,
+    "ast_hash": "d6dda956b10fe1ebbd1509fe539a890d",
+    "semantic_hash": "d6dda956b10fe1ebbd1509fe539a890d"
+  },
+  "src/SocialConnect.Application/Features/Auth/Commands/Login/LoginCommandHandler.cs": {
+    "mtime": 1785062400.9894576,
+    "seen": 1791357795.7961404,
+    "ast_hash": "fdc7271416125aed37076606faaf3ca9",
+    "semantic_hash": "fdc7271416125aed37076606faaf3ca9"
+  },
+  "src/SocialConnect.Application/Features/Auth/Commands/Login/LoginCommandValidator.cs": {
+    "mtime": 1785062400.9894576,
+    "seen": 1791357795.7961414,
+    "ast_hash": "94411f4ab1dda326842636a9ec12439b",
+    "semantic_hash": "94411f4ab1dda326842636a9ec12439b"
+  },
+  "src/SocialConnect.Application/Features/Auth/Commands/Logout/LogoutCommand.cs": {
+    "mtime": 1785062400.9894576,
+    "seen": 1791357795.7961426,
+    "ast_hash": "f6f42aa34c42d6b3586ffae59ee22722",
+    "semantic_hash": "f6f42aa34c42d6b3586ffae59ee22722"
+  },
+  "src/SocialConnect.Application/Features/Auth/Commands/Logout/LogoutCommandHandler.cs": {
+    "mtime": 1785062400.9894576,
+    "seen": 1791357795.7961438,
+    "ast_hash": "2c02b6df59f2b71a609c8e131eee82cc",
+    "semantic_hash": "2c02b6df59f2b71a609c8e131eee82cc"
+  },
+  "src/SocialConnect.Application/Features/Auth/Commands/RefreshToken/RefreshTokenCommand.cs": {
+    "mtime": 1785062400.9894576,
+    "seen": 1791357795.796145,
+    "ast_hash": "a1cebee5e82571415f582ea39391aeba",
+    "semantic_hash": "a1cebee5e82571415f582ea39391aeba"
+  },
+  "src/SocialConnect.Application/Features/Auth/Commands/RefreshToken/RefreshTokenCommandHandler.cs": {
+    "mtime": 1785062400.9894576,
+    "seen": 1791357795.796146,
+    "ast_hash": "adb34437c96a5a4aa8194946c8d32455",
+    "semantic_hash": "adb34437c96a5a4aa8194946c8d32455"
+  },
+  "src/SocialConnect.Application/Features/Auth/Commands/RefreshToken/RefreshTokenCommandValidator.cs": {
+    "mtime": 1785062400.9894576,
+    "seen": 1791357795.7961466,
+    "ast_hash": "3429090b771fbe2116ef5f9d68af4d47",
+    "semantic_hash": "3429090b771fbe2116ef5f9d68af4d47"
+  },
+  "src/SocialConnect.Application/Features/Auth/Commands/Register/RegisterCommand.cs": {
+    "mtime": 1785062400.9894576,
+    "seen": 1791357795.7961478,
+    "ast_hash": "40317147dd443e378176e90d38fde1e4",
+    "semantic_hash": "40317147dd443e378176e90d38fde1e4"
+  },
+  "src/SocialConnect.Application/Features/Auth/Commands/Register/RegisterCommandHandler.cs": {
+    "mtime": 1785062400.9894576,
+    "seen": 1791357795.796149,
+    "ast_hash": "5e17282f9e8ef269648d61bb3cafe3b0",
+    "semantic_hash": "5e17282f9e8ef269648d61bb3cafe3b0"
+  },
+  "src/SocialConnect.Application/Features/Auth/Commands/Register/RegisterCommandValidator.cs": {
+    "mtime": 1785062400.9894576,
+    "seen": 1791357795.79615,
+    "ast_hash": "8d8370d9ea7ffd8cca3e951e1c18fffd",
+    "semantic_hash": "8d8370d9ea7ffd8cca3e951e1c18fffd"
+  },
+  "src/SocialConnect.Application/Features/Auth/Commands/ResetPassword/ResetPasswordCommand.cs": {
+    "mtime": 1785062400.9894576,
+    "seen": 1791357795.796151,
+    "ast_hash": "82ab4590d3f09898cc0bd13bbc7e5a34",
+    "semantic_hash": "82ab4590d3f09898cc0bd13bbc7e5a34"
+  },
+  "src/SocialConnect.Application/Features/Auth/Commands/ResetPassword/ResetPasswordCommandHandler.cs": {
+    "mtime": 1785062400.9894576,
+    "seen": 1791357795.796152,
+    "ast_hash": "8b7d31f5648568da3355a15917f284ed",
+    "semantic_hash": "8b7d31f5648568da3355a15917f284ed"
+  },
+  "src/SocialConnect.Application/Features/Auth/Commands/ResetPassword/ResetPasswordCommandValidator.cs": {
+    "mtime": 1785062401.0037084,
+    "seen": 1791357795.7961528,
+    "ast_hash": "cb757245b73d11c41ddeaf4d6cf7e52f",
+    "semantic_hash": "cb757245b73d11c41ddeaf4d6cf7e52f"
+  },
+  "src/SocialConnect.Application/Features/Auth/Commands/RevokeToken/RevokeTokenCommand.cs": {
+    "mtime": 1785062401.0037084,
+    "seen": 1791357795.796154,
+    "ast_hash": "6e6807654b2e7fee05510ba80d1adcb7",
+    "semantic_hash": "6e6807654b2e7fee05510ba80d1adcb7"
+  },
+  "src/SocialConnect.Application/Features/Auth/Commands/RevokeToken/RevokeTokenCommandHandler.cs": {
+    "mtime": 1785062401.0037084,
+    "seen": 1791357795.7961552,
+    "ast_hash": "dbc4e390de4bcdd18ef2087c3befd034",
+    "semantic_hash": "dbc4e390de4bcdd18ef2087c3befd034"
+  },
+  "src/SocialConnect.Application/Features/Auth/Commands/RevokeToken/RevokeTokenCommandValidator.cs": {
+    "mtime": 1785062401.0037084,
+    "seen": 1791357795.796156,
+    "ast_hash": "634fa5e1b5dae743feb3c6506d93a0da",
+    "semantic_hash": "634fa5e1b5dae743feb3c6506d93a0da"
+  },
+  "src/SocialConnect.Application/Features/Auth/Commands/VerifyEmail/VerifyEmailCommand.cs": {
+    "mtime": 1785062401.0037084,
+    "seen": 1791357795.796157,
+    "ast_hash": "6a01b542bec4562c6df96a6d9183d261",
+    "semantic_hash": "6a01b542bec4562c6df96a6d9183d261"
+  },
+  "src/SocialConnect.Application/Features/Auth/Commands/VerifyEmail/VerifyEmailCommandHandler.cs": {
+    "mtime": 1785062401.0037084,
+    "seen": 1791357795.7961595,
+    "ast_hash": "0bfee2e6c3f4628e33b056dfdd57088a",
+    "semantic_hash": "0bfee2e6c3f4628e33b056dfdd57088a"
+  },
+  "src/SocialConnect.Application/Features/Comments/Commands/AddComment/AddCommentCommand.cs": {
+    "mtime": 1785062401.0057254,
+    "seen": 1791357795.7961605,
+    "ast_hash": "26d6df652593678bd5bfaaffd14cffa0",
+    "semantic_hash": "26d6df652593678bd5bfaaffd14cffa0"
+  },
+  "src/SocialConnect.Application/Features/Comments/Commands/AddComment/AddCommentCommandHandler.cs": {
+    "mtime": 1785062401.0057254,
+    "seen": 1791357795.7961612,
+    "ast_hash": "b2b0b8b97bc963d2c73dfbe7eddbcc94",
+    "semantic_hash": "b2b0b8b97bc963d2c73dfbe7eddbcc94"
+  },
+  "src/SocialConnect.Application/Features/Comments/Commands/AddComment/AddCommentCommandValidator.cs": {
+    "mtime": 1785062401.0057254,
+    "seen": 1791357795.7961621,
+    "ast_hash": "a5be90b72c2c203e81aeb148231352f6",
+    "semantic_hash": "a5be90b72c2c203e81aeb148231352f6"
+  },
+  "src/SocialConnect.Application/Features/Comments/Commands/DeleteComment/DeleteCommentCommand.cs": {
+    "mtime": 1785062401.0057254,
+    "seen": 1791357795.796163,
+    "ast_hash": "01689e764f1e6199d8995d0f4608030d",
+    "semantic_hash": "01689e764f1e6199d8995d0f4608030d"
+  },
+  "src/SocialConnect.Application/Features/Comments/Commands/DeleteComment/DeleteCommentCommandHandler.cs": {
+    "mtime": 1785062401.0057254,
+    "seen": 1791357795.796164,
+    "ast_hash": "fa175e12f0f0c1c98a9429652e890348",
+    "semantic_hash": "fa175e12f0f0c1c98a9429652e890348"
+  },
+  "src/SocialConnect.Application/Features/Comments/Commands/UpdateComment/UpdateCommentCommand.cs": {
+    "mtime": 1785062401.0057254,
+    "seen": 1791357795.7961652,
+    "ast_hash": "ad4f158b1df7ee940d65661269b01fc9",
+    "semantic_hash": "ad4f158b1df7ee940d65661269b01fc9"
+  },
+  "src/SocialConnect.Application/Features/Comments/Commands/UpdateComment/UpdateCommentCommandHandler.cs": {
+    "mtime": 1785062401.0057254,
+    "seen": 1791357795.7961664,
+    "ast_hash": "c334090b71f2bc5a49d8482c257925da",
+    "semantic_hash": "c334090b71f2bc5a49d8482c257925da"
+  },
+  "src/SocialConnect.Application/Features/Comments/Commands/UpdateComment/UpdateCommentCommandValidator.cs": {
+    "mtime": 1785062401.0077376,
+    "seen": 1791357795.7961676,
+    "ast_hash": "076b4bc487542301dee0232ec2236f12",
+    "semantic_hash": "076b4bc487542301dee0232ec2236f12"
+  },
+  "src/SocialConnect.Application/Features/Comments/DTOs/CommentDto.cs": {
+    "mtime": 1785062401.0077376,
+    "seen": 1791357795.7961686,
+    "ast_hash": "68c1324fbe4bfb5b8f6997afc7c64886",
+    "semantic_hash": "68c1324fbe4bfb5b8f6997afc7c64886"
+  },
+  "src/SocialConnect.Application/Features/Comments/Queries/GetPostComments/GetPostCommentsQuery.cs": {
+    "mtime": 1785062401.0077376,
+    "seen": 1791357795.7961695,
+    "ast_hash": "1dfd32994497387a620cd29af6ae2d24",
+    "semantic_hash": "1dfd32994497387a620cd29af6ae2d24"
+  },
+  "src/SocialConnect.Application/Features/Comments/Queries/GetPostComments/GetPostCommentsQueryHandler.cs": {
+    "mtime": 1785062401.0077376,
+    "seen": 1791357795.7961702,
+    "ast_hash": "f3724ec1b9eadb06d34b6e90cf14e1d8",
+    "semantic_hash": "f3724ec1b9eadb06d34b6e90cf14e1d8"
+  },
+  "src/SocialConnect.Application/Features/Messaging/Commands/AddGroupMember/AddGroupMemberCommand.cs": {
+    "mtime": 1785062401.0077376,
+    "seen": 1791357795.7961714,
+    "ast_hash": "3313a97351fb93a305a50a00087f7a26",
+    "semantic_hash": "3313a97351fb93a305a50a00087f7a26"
+  },
+  "src/SocialConnect.Application/Features/Messaging/Commands/AddGroupMember/AddGroupMemberCommandHandler.cs": {
+    "mtime": 1785062401.0077376,
+    "seen": 1791357795.7961726,
+    "ast_hash": "e5f505814fd130458bc5a68db099c734",
+    "semantic_hash": "e5f505814fd130458bc5a68db099c734"
+  },
+  "src/SocialConnect.Application/Features/Messaging/Commands/CreateConversation/CreateConversationCommand.cs": {
+    "mtime": 1785062401.0077376,
+    "seen": 1791357795.7961736,
+    "ast_hash": "65cc7763137ff288804dd2010d8b586a",
+    "semantic_hash": "65cc7763137ff288804dd2010d8b586a"
+  },
+  "src/SocialConnect.Application/Features/Messaging/Commands/CreateConversation/CreateConversationCommandHandler.cs": {
+    "mtime": 1785062401.0097492,
+    "seen": 1791357795.7961743,
+    "ast_hash": "b0aef062171ebbce1619878f2a4719e0",
+    "semantic_hash": "b0aef062171ebbce1619878f2a4719e0"
+  },
+  "src/SocialConnect.Application/Features/Messaging/Commands/CreateConversation/CreateConversationCommandValidator.cs": {
+    "mtime": 1785062401.0097492,
+    "seen": 1791357795.7961752,
+    "ast_hash": "5f63b93f7a6674c08497e267c4c3444d",
+    "semantic_hash": "5f63b93f7a6674c08497e267c4c3444d"
+  },
+  "src/SocialConnect.Application/Features/Messaging/Commands/CreateGroupChat/CreateGroupChatCommand.cs": {
+    "mtime": 1785062401.0097492,
+    "seen": 1791357795.7961764,
+    "ast_hash": "e7323e3c3f5c5c4788bf9b59fad255dd",
+    "semantic_hash": "e7323e3c3f5c5c4788bf9b59fad255dd"
+  },
+  "src/SocialConnect.Application/Features/Messaging/Commands/CreateGroupChat/CreateGroupChatCommandHandler.cs": {
+    "mtime": 1785062401.0097492,
+    "seen": 1791357795.7961771,
+    "ast_hash": "adb611ff875b5478bb8ea3b8810dc657",
+    "semantic_hash": "adb611ff875b5478bb8ea3b8810dc657"
+  },
+  "src/SocialConnect.Application/Features/Messaging/Commands/CreateGroupChat/CreateGroupChatCommandValidator.cs": {
+    "mtime": 1785062401.0097492,
+    "seen": 1791357795.796178,
+    "ast_hash": "27740c6dce209ee2a6a104877aecdec7",
+    "semantic_hash": "27740c6dce209ee2a6a104877aecdec7"
+  },
+  "src/SocialConnect.Application/Features/Messaging/Commands/DeleteMessage/DeleteMessageCommand.cs": {
+    "mtime": 1785062401.0097492,
+    "seen": 1791357795.7961793,
+    "ast_hash": "92fd79f9007eec81affb98fbf6936683",
+    "semantic_hash": "92fd79f9007eec81affb98fbf6936683"
+  },
+  "src/SocialConnect.Application/Features/Messaging/Commands/DeleteMessage/DeleteMessageCommandHandler.cs": {
+    "mtime": 1785062401.0097492,
+    "seen": 1791357795.7961802,
+    "ast_hash": "dcb95f02f8bddba7586dd36c78085eda",
+    "semantic_hash": "dcb95f02f8bddba7586dd36c78085eda"
+  },
+  "src/SocialConnect.Application/Features/Messaging/Commands/EditMessage/EditMessageCommand.cs": {
+    "mtime": 1785062401.0097492,
+    "seen": 1791357795.796181,
+    "ast_hash": "46e85958dc5521980c8914fecb55c6d4",
+    "semantic_hash": "46e85958dc5521980c8914fecb55c6d4"
+  },
+  "src/SocialConnect.Application/Features/Messaging/Commands/EditMessage/EditMessageCommandHandler.cs": {
+    "mtime": 1785062401.0097492,
+    "seen": 1791357795.7961817,
+    "ast_hash": "e9fed0d328aedd67f3e85ccf7b15025d",
+    "semantic_hash": "e9fed0d328aedd67f3e85ccf7b15025d"
+  },
+  "src/SocialConnect.Application/Features/Messaging/Commands/MarkAsRead/MarkAsReadCommand.cs": {
+    "mtime": 1785062401.0117595,
+    "seen": 1791357795.7961826,
+    "ast_hash": "63c8fdcd53e113953c731ad65cfdd317",
+    "semantic_hash": "63c8fdcd53e113953c731ad65cfdd317"
+  },
+  "src/SocialConnect.Application/Features/Messaging/Commands/MarkAsRead/MarkAsReadCommandHandler.cs": {
+    "mtime": 1785062401.0117595,
+    "seen": 1791357795.7961836,
+    "ast_hash": "dd8dba0de16b7f9951dde3edfce6c9e9",
+    "semantic_hash": "dd8dba0de16b7f9951dde3edfce6c9e9"
+  },
+  "src/SocialConnect.Application/Features/Messaging/Commands/RemoveGroupMember/RemoveGroupMemberCommand.cs": {
+    "mtime": 1785062401.0117595,
+    "seen": 1791357795.7961845,
+    "ast_hash": "0ef8ff66d84e480e051d0f248410f35f",
+    "semantic_hash": "0ef8ff66d84e480e051d0f248410f35f"
+  },
+  "src/SocialConnect.Application/Features/Messaging/Commands/RemoveGroupMember/RemoveGroupMemberCommandHandler.cs": {
+    "mtime": 1785062401.0117595,
+    "seen": 1791357795.7961853,
+    "ast_hash": "4dce1a944dd5dd50302f9a5f3b23164b",
+    "semantic_hash": "4dce1a944dd5dd50302f9a5f3b23164b"
+  },
+  "src/SocialConnect.Application/Features/Messaging/Commands/SendMessage/SendMessageCommand.cs": {
+    "mtime": 1785062401.0117595,
+    "seen": 1791357795.7961862,
+    "ast_hash": "ce4b24021a8a95ccbaad8b0d1e1b681e",
+    "semantic_hash": "ce4b24021a8a95ccbaad8b0d1e1b681e"
+  },
+  "src/SocialConnect.Application/Features/Messaging/Commands/SendMessage/SendMessageCommandHandler.cs": {
+    "mtime": 1785062401.0117595,
+    "seen": 1791357795.7961872,
+    "ast_hash": "85a5cdaff84330fc66277c000b2f5a3e",
+    "semantic_hash": "85a5cdaff84330fc66277c000b2f5a3e"
+  },
+  "src/SocialConnect.Application/Features/Messaging/Commands/SendMessage/SendMessageCommandValidator.cs": {
+    "mtime": 1785062401.0117595,
+    "seen": 1791357795.7961879,
+    "ast_hash": "07f90d36eaa5874bb1bbe5e465899ae1",
+    "semantic_hash": "07f90d36eaa5874bb1bbe5e465899ae1"
+  },
+  "src/SocialConnect.Application/Features/Messaging/DTOs/ConversationDto.cs": {
+    "mtime": 1785062401.0117595,
+    "seen": 1791357795.7961886,
+    "ast_hash": "14d8cde738a0a22022e8c2ecd22d9fc7",
+    "semantic_hash": "14d8cde738a0a22022e8c2ecd22d9fc7"
+  },
+  "src/SocialConnect.Application/Features/Messaging/DTOs/ConversationMemberDto.cs": {
+    "mtime": 1785062401.0117595,
+    "seen": 1791357795.7961898,
+    "ast_hash": "95d23ab77429bf63e9f57458b76fddc5",
+    "semantic_hash": "95d23ab77429bf63e9f57458b76fddc5"
+  },
+  "src/SocialConnect.Application/Features/Messaging/DTOs/MessageAttachmentDto.cs": {
+    "mtime": 1785062401.0117595,
+    "seen": 1791357795.7961903,
+    "ast_hash": "7c4fcd5fd3ff42d972df63d372528700",
+    "semantic_hash": "7c4fcd5fd3ff42d972df63d372528700"
+  },
+  "src/SocialConnect.Application/Features/Messaging/DTOs/MessageDto.cs": {
+    "mtime": 1785062401.0117595,
+    "seen": 1791357795.7961912,
+    "ast_hash": "00dfd73b96f25dcf64735e9b05a5e462",
+    "semantic_hash": "00dfd73b96f25dcf64735e9b05a5e462"
+  },
+  "src/SocialConnect.Application/Features/Messaging/Queries/GetConversations/GetConversationsQuery.cs": {
+    "mtime": 1785062401.0117595,
+    "seen": 1791357795.7961922,
+    "ast_hash": "b5764055b4def30e4b9a313029552c55",
+    "semantic_hash": "b5764055b4def30e4b9a313029552c55"
+  },
+  "src/SocialConnect.Application/Features/Messaging/Queries/GetConversations/GetConversationsQueryHandler.cs": {
+    "mtime": 1785062401.0117595,
+    "seen": 1791357795.7961931,
+    "ast_hash": "bac3b505aff2426de285bd174ff3801f",
+    "semantic_hash": "bac3b505aff2426de285bd174ff3801f"
+  },
+  "src/SocialConnect.Application/Features/Messaging/Queries/GetMessages/GetMessagesQuery.cs": {
+    "mtime": 1785062401.0117595,
+    "seen": 1791357795.7961938,
+    "ast_hash": "756124bdaba4001ad8af774ba6f6aa3d",
+    "semantic_hash": "756124bdaba4001ad8af774ba6f6aa3d"
+  },
+  "src/SocialConnect.Application/Features/Messaging/Queries/GetMessages/GetMessagesQueryHandler.cs": {
+    "mtime": 1785062401.0117595,
+    "seen": 1791357795.7961948,
+    "ast_hash": "20055dafbd31cf2e262d19b3b9a413ea",
+    "semantic_hash": "20055dafbd31cf2e262d19b3b9a413ea"
+  },
+  "src/SocialConnect.Application/Features/Notifications/Commands/MarkAllNotificationsRead/MarkAllNotificationsReadCommand.cs": {
+    "mtime": 1785062401.0117595,
+    "seen": 1791357795.7961957,
+    "ast_hash": "a77f1b8cc0377194b91f722aabd76b8c",
+    "semantic_hash": "a77f1b8cc0377194b91f722aabd76b8c"
+  },
+  "src/SocialConnect.Application/Features/Notifications/Commands/MarkAllNotificationsRead/MarkAllNotificationsReadCommandHandler.cs": {
+    "mtime": 1785062401.0117595,
+    "seen": 1791357795.796197,
+    "ast_hash": "1d1651a3dcabddad3dc1628faae72ee8",
+    "semantic_hash": "1d1651a3dcabddad3dc1628faae72ee8"
+  },
+  "src/SocialConnect.Application/Features/Notifications/DTOs/NotificationDto.cs": {
+    "mtime": 1785062401.0117595,
+    "seen": 1791357795.796198,
+    "ast_hash": "3033718129a78443654e4e38c8fb1b4c",
+    "semantic_hash": "3033718129a78443654e4e38c8fb1b4c"
+  },
+  "src/SocialConnect.Application/Features/Notifications/Queries/GetUserNotifications/GetUserNotificationsQuery.cs": {
+    "mtime": 1785062401.0117595,
+    "seen": 1791357795.7961984,
+    "ast_hash": "257b1a0e12c7c4db424482b1e1f0e4ee",
+    "semantic_hash": "257b1a0e12c7c4db424482b1e1f0e4ee"
+  },
+  "src/SocialConnect.Application/Features/Notifications/Queries/GetUserNotifications/GetUserNotificationsQueryHandler.cs": {
+    "mtime": 1785062401.0117595,
+    "seen": 1791357795.7961998,
+    "ast_hash": "395bbd712002d9d688327fe4005e8b8e",
+    "semantic_hash": "395bbd712002d9d688327fe4005e8b8e"
+  },
+  "src/SocialConnect.Application/Features/Posts/Commands/CreatePost/CreatePostCommand.cs": {
+    "mtime": 1785062401.0117595,
+    "seen": 1791357795.7962008,
+    "ast_hash": "d4da7c966d8258aeaef0bd53e365b969",
+    "semantic_hash": "d4da7c966d8258aeaef0bd53e365b969"
+  },
+  "src/SocialConnect.Application/Features/Posts/Commands/CreatePost/CreatePostCommandHandler.cs": {
+    "mtime": 1785062401.0117595,
+    "seen": 1791357795.7962015,
+    "ast_hash": "369c278eb11dd6457ca341ae868295cd",
+    "semantic_hash": "369c278eb11dd6457ca341ae868295cd"
+  },
+  "src/SocialConnect.Application/Features/Posts/Commands/CreatePost/CreatePostCommandValidator.cs": {
+    "mtime": 1785062401.0117595,
+    "seen": 1791357795.7962022,
+    "ast_hash": "3367bf96fbec0e6553da78672f3efb1d",
+    "semantic_hash": "3367bf96fbec0e6553da78672f3efb1d"
+  },
+  "src/SocialConnect.Application/Features/Posts/Commands/DeletePost/DeletePostCommand.cs": {
+    "mtime": 1785062401.0117595,
+    "seen": 1791357795.796203,
+    "ast_hash": "108cd109d26a3b555cb257cc71b966b8",
+    "semantic_hash": "108cd109d26a3b555cb257cc71b966b8"
+  },
+  "src/SocialConnect.Application/Features/Posts/Commands/DeletePost/DeletePostCommandHandler.cs": {
+    "mtime": 1785062401.0117595,
+    "seen": 1791357795.7962036,
+    "ast_hash": "f2189bb318f7ed8da6bc7552b7281319",
+    "semantic_hash": "f2189bb318f7ed8da6bc7552b7281319"
+  },
+  "src/SocialConnect.Application/Features/Posts/Commands/DeletePost/DeletePostCommandValidator.cs": {
+    "mtime": 1785062401.0117595,
+    "seen": 1791357795.7962046,
+    "ast_hash": "882901d127a3873790441d76b8b96949",
+    "semantic_hash": "882901d127a3873790441d76b8b96949"
+  },
+  "src/SocialConnect.Application/Features/Posts/Commands/PublishPost/PublishPostCommand.cs": {
+    "mtime": 1785062401.0195832,
+    "seen": 1791357795.7962053,
+    "ast_hash": "ad92609f9750f2c3e4918114a65553d5",
+    "semantic_hash": "ad92609f9750f2c3e4918114a65553d5"
+  },
+  "src/SocialConnect.Application/Features/Posts/Commands/PublishPost/PublishPostCommandHandler.cs": {
+    "mtime": 1785062401.0195832,
+    "seen": 1791357795.796206,
+    "ast_hash": "ef08e89a7f27d2ea7d130864f1ea7043",
+    "semantic_hash": "ef08e89a7f27d2ea7d130864f1ea7043"
+  },
+  "src/SocialConnect.Application/Features/Posts/Commands/SchedulePost/SchedulePostCommand.cs": {
+    "mtime": 1785062401.0195832,
+    "seen": 1791357795.7962072,
+    "ast_hash": "fb1caba557a01d039ac41e8c015a55a7",
+    "semantic_hash": "fb1caba557a01d039ac41e8c015a55a7"
+  },
+  "src/SocialConnect.Application/Features/Posts/Commands/SchedulePost/SchedulePostCommandHandler.cs": {
+    "mtime": 1785062401.0195832,
+    "seen": 1791357795.796208,
+    "ast_hash": "4c4d09b04115ca796d9d3367c6dd5988",
+    "semantic_hash": "4c4d09b04115ca796d9d3367c6dd5988"
+  },
+  "src/SocialConnect.Application/Features/Posts/Commands/SchedulePost/SchedulePostCommandValidator.cs": {
+    "mtime": 1785062401.0195832,
+    "seen": 1791357795.7962089,
+    "ast_hash": "8769ba9556f1c4de78e1b618cc654525",
+    "semantic_hash": "8769ba9556f1c4de78e1b618cc654525"
+  },
+  "src/SocialConnect.Application/Features/Posts/Commands/UpdatePost/UpdatePostCommand.cs": {
+    "mtime": 1785062401.0195832,
+    "seen": 1791357795.7962096,
+    "ast_hash": "39075596664cd286a6c0ccf1b954b189",
+    "semantic_hash": "39075596664cd286a6c0ccf1b954b189"
+  },
+  "src/SocialConnect.Application/Features/Posts/Commands/UpdatePost/UpdatePostCommandHandler.cs": {
+    "mtime": 1785062401.0195832,
+    "seen": 1791357795.7962108,
+    "ast_hash": "12a21ceafe6d19edb3dc9c395faa171d",
+    "semantic_hash": "12a21ceafe6d19edb3dc9c395faa171d"
+  },
+  "src/SocialConnect.Application/Features/Posts/Commands/UpdatePost/UpdatePostCommandValidator.cs": {
+    "mtime": 1785062401.0195832,
+    "seen": 1791357795.7962115,
+    "ast_hash": "19f01d7e40af5045c601b1cf6ecff8a4",
+    "semantic_hash": "19f01d7e40af5045c601b1cf6ecff8a4"
+  },
+  "src/SocialConnect.Application/Features/Posts/Commands/UploadPostMedia/UploadPostMediaCommand.cs": {
+    "mtime": 1785062401.0195832,
+    "seen": 1791357795.7962124,
+    "ast_hash": "11abe0140f0c7e842ce04aff38f46291",
+    "semantic_hash": "11abe0140f0c7e842ce04aff38f46291"
+  },
+  "src/SocialConnect.Application/Features/Posts/Commands/UploadPostMedia/UploadPostMediaCommandHandler.cs": {
+    "mtime": 1785062401.021591,
+    "seen": 1791357795.7962132,
+    "ast_hash": "2550ed3dae28fe9db887f1a77c82df1d",
+    "semantic_hash": "2550ed3dae28fe9db887f1a77c82df1d"
+  },
+  "src/SocialConnect.Application/Features/Posts/DTOs/MediaItemDto.cs": {
+    "mtime": 1785062401.021591,
+    "seen": 1791357795.7962143,
+    "ast_hash": "edbb701254234dbb22ca197866e4451f",
+    "semantic_hash": "edbb701254234dbb22ca197866e4451f"
+  },
+  "src/SocialConnect.Application/Features/Posts/DTOs/PostDto.cs": {
+    "mtime": 1785062401.021591,
+    "seen": 1791357795.796215,
+    "ast_hash": "a4dfbcc3f530504500303df30786896c",
+    "semantic_hash": "a4dfbcc3f530504500303df30786896c"
+  },
+  "src/SocialConnect.Application/Features/Posts/Queries/GetFeed/GetFeedQuery.cs": {
+    "mtime": 1785062401.021591,
+    "seen": 1791357795.796216,
+    "ast_hash": "aa5e4382fc5e623b0a28aa3b22df893e",
+    "semantic_hash": "aa5e4382fc5e623b0a28aa3b22df893e"
+  },
+  "src/SocialConnect.Application/Features/Posts/Queries/GetFeed/GetFeedQueryHandler.cs": {
+    "mtime": 1785062401.021591,
+    "seen": 1791357795.7962172,
+    "ast_hash": "69640557c05e804c29ba8a180eaf3b1d",
+    "semantic_hash": "69640557c05e804c29ba8a180eaf3b1d"
+  },
+  "src/SocialConnect.Application/Features/Posts/Queries/GetPostById/GetPostByIdQuery.cs": {
+    "mtime": 1785062401.021591,
+    "seen": 1791357795.796218,
+    "ast_hash": "93204ada8913de2fa94f0859ce619aae",
+    "semantic_hash": "93204ada8913de2fa94f0859ce619aae"
+  },
+  "src/SocialConnect.Application/Features/Posts/Queries/GetPostById/GetPostByIdQueryHandler.cs": {
+    "mtime": 1785062401.021591,
+    "seen": 1791357795.7962186,
+    "ast_hash": "897e37dec2418799f2bacc50895982f0",
+    "semantic_hash": "897e37dec2418799f2bacc50895982f0"
+  },
+  "src/SocialConnect.Application/Features/Posts/Queries/GetUserPosts/GetUserPostsQuery.cs": {
+    "mtime": 1785062401.021591,
+    "seen": 1791357795.7962196,
+    "ast_hash": "99c34a930b95b1e20bdd89feb65c2155",
+    "semantic_hash": "99c34a930b95b1e20bdd89feb65c2155"
+  },
+  "src/SocialConnect.Application/Features/Posts/Queries/GetUserPosts/GetUserPostsQueryHandler.cs": {
+    "mtime": 1785062401.021591,
+    "seen": 1791357795.7962203,
+    "ast_hash": "0019a21e52da41c30653ffef769bc77d",
+    "semantic_hash": "0019a21e52da41c30653ffef769bc77d"
+  },
+  "src/SocialConnect.Application/Features/Posts/Queries/SearchPosts/SearchPostsQuery.cs": {
+    "mtime": 1785062401.021591,
+    "seen": 1791357795.7962213,
+    "ast_hash": "9a6b50612c85e42a806431cef1c5d66d",
+    "semantic_hash": "9a6b50612c85e42a806431cef1c5d66d"
+  },
+  "src/SocialConnect.Application/Features/Posts/Queries/SearchPosts/SearchPostsQueryHandler.cs": {
+    "mtime": 1785062401.021591,
+    "seen": 1791357795.7962222,
+    "ast_hash": "6fefb48147f22d64f9a5460b55de144c",
+    "semantic_hash": "6fefb48147f22d64f9a5460b55de144c"
+  },
+  "src/SocialConnect.Application/Features/Reactions/Commands/ToggleReaction/ToggleReactionCommand.cs": {
+    "mtime": 1785062401.021591,
+    "seen": 1791357795.796223,
+    "ast_hash": "fe680676c0f56875487866c6bb4f8eea",
+    "semantic_hash": "fe680676c0f56875487866c6bb4f8eea"
+  },
+  "src/SocialConnect.Application/Features/Reactions/Commands/ToggleReaction/ToggleReactionCommandHandler.cs": {
+    "mtime": 1785062401.021591,
+    "seen": 1791357795.7962236,
+    "ast_hash": "717c458126b3ffc4033a3946fdd1b844",
+    "semantic_hash": "717c458126b3ffc4033a3946fdd1b844"
+  },
+  "src/SocialConnect.Application/Features/Reactions/Commands/ToggleReaction/ToggleReactionCommandValidator.cs": {
+    "mtime": 1785062401.021591,
+    "seen": 1791357795.7962248,
+    "ast_hash": "1b0e3ccddbe99bae2df08e03901015c1",
+    "semantic_hash": "1b0e3ccddbe99bae2df08e03901015c1"
+  },
+  "src/SocialConnect.Application/Features/Reactions/DTOs/ReactionDto.cs": {
+    "mtime": 1785062401.021591,
+    "seen": 1791357795.7962255,
+    "ast_hash": "71bb326b2f9559a4e349204e34a8a0cd",
+    "semantic_hash": "71bb326b2f9559a4e349204e34a8a0cd"
+  },
+  "src/SocialConnect.Application/Features/Reactions/Queries/GetReactions/GetReactionsQuery.cs": {
+    "mtime": 1785062401.021591,
+    "seen": 1791357795.7962263,
+    "ast_hash": "de8565fd15da54de8d3aa37c06f814bd",
+    "semantic_hash": "de8565fd15da54de8d3aa37c06f814bd"
+  },
+  "src/SocialConnect.Application/Features/Reactions/Queries/GetReactions/GetReactionsQueryHandler.cs": {
+    "mtime": 1785062401.021591,
+    "seen": 1791357795.796227,
+    "ast_hash": "29cb755d74fbae8d337828a8acc2be62",
+    "semantic_hash": "29cb755d74fbae8d337828a8acc2be62"
+  },
+  "src/SocialConnect.Application/Features/Social/Commands/BlockUser/BlockUserCommand.cs": {
+    "mtime": 1785062401.021591,
+    "seen": 1791357795.7962282,
+    "ast_hash": "374cbf95d34bec2f5f396b361aad755d",
+    "semantic_hash": "374cbf95d34bec2f5f396b361aad755d"
+  },
+  "src/SocialConnect.Application/Features/Social/Commands/BlockUser/BlockUserCommandHandler.cs": {
+    "mtime": 1785062401.021591,
+    "seen": 1791357795.796229,
+    "ast_hash": "6449423bd5d1587161310aeeb4e0d539",
+    "semantic_hash": "6449423bd5d1587161310aeeb4e0d539"
+  },
+  "src/SocialConnect.Application/Features/Social/Commands/FollowUser/FollowUserCommand.cs": {
+    "mtime": 1785062401.021591,
+    "seen": 1791357795.7962296,
+    "ast_hash": "3ebf981d219bbe84b5fc2f948b9d5af9",
+    "semantic_hash": "3ebf981d219bbe84b5fc2f948b9d5af9"
+  },
+  "src/SocialConnect.Application/Features/Social/Commands/FollowUser/FollowUserCommandHandler.cs": {
+    "mtime": 1785062401.021591,
+    "seen": 1791357795.7962303,
+    "ast_hash": "82560ba83719fdd0018ee5c10af5eff8",
+    "semantic_hash": "82560ba83719fdd0018ee5c10af5eff8"
+  },
+  "src/SocialConnect.Application/Features/Social/Commands/FollowUser/FollowUserCommandValidator.cs": {
+    "mtime": 1785062401.021591,
+    "seen": 1791357795.7962315,
+    "ast_hash": "7999e24e476801e2e1785e7d63217dd3",
+    "semantic_hash": "7999e24e476801e2e1785e7d63217dd3"
+  },
+  "src/SocialConnect.Application/Features/Social/Commands/MuteUser/MuteUserCommand.cs": {
+    "mtime": 1785062401.021591,
+    "seen": 1791357795.796232,
+    "ast_hash": "031a25fd36bbf15757649d02490f3b82",
+    "semantic_hash": "031a25fd36bbf15757649d02490f3b82"
+  },
+  "src/SocialConnect.Application/Features/Social/Commands/MuteUser/MuteUserCommandHandler.cs": {
+    "mtime": 1785062401.021591,
+    "seen": 1791357795.7962327,
+    "ast_hash": "8464d27f9f2adda1f96f19f2307e2f50",
+    "semantic_hash": "8464d27f9f2adda1f96f19f2307e2f50"
+  },
+  "src/SocialConnect.Application/Features/Social/Commands/UnblockUser/UnblockUserCommand.cs": {
+    "mtime": 1785062401.021591,
+    "seen": 1791357795.7962334,
+    "ast_hash": "d603e9e00e610881d5b9498458f856d7",
+    "semantic_hash": "d603e9e00e610881d5b9498458f856d7"
+  },
+  "src/SocialConnect.Application/Features/Social/Commands/UnblockUser/UnblockUserCommandHandler.cs": {
+    "mtime": 1785062401.021591,
+    "seen": 1791357795.7962341,
+    "ast_hash": "ab8a34654bf8c72e97780d3d0ba7a85c",
+    "semantic_hash": "ab8a34654bf8c72e97780d3d0ba7a85c"
+  },
+  "src/SocialConnect.Application/Features/Social/Commands/UnfollowUser/UnfollowUserCommand.cs": {
+    "mtime": 1785062401.021591,
+    "seen": 1791357795.7962363,
+    "ast_hash": "9adfb825ecb1fa5aec457d738168d395",
+    "semantic_hash": "9adfb825ecb1fa5aec457d738168d395"
+  },
+  "src/SocialConnect.Application/Features/Social/Commands/UnfollowUser/UnfollowUserCommandHandler.cs": {
+    "mtime": 1785062401.021591,
+    "seen": 1791357795.7962372,
+    "ast_hash": "2e60cff7afcee16f541ed8f8e67502fc",
+    "semantic_hash": "2e60cff7afcee16f541ed8f8e67502fc"
+  },
+  "src/SocialConnect.Application/Features/Social/Commands/UnfollowUser/UnfollowUserCommandValidator.cs": {
+    "mtime": 1785062401.021591,
+    "seen": 1791357795.7962377,
+    "ast_hash": "755c0a66d6ded7d708c0021974bff19e",
+    "semantic_hash": "755c0a66d6ded7d708c0021974bff19e"
+  },
+  "src/SocialConnect.Application/Features/Social/Commands/UnmuteUser/UnmuteUserCommand.cs": {
+    "mtime": 1785062401.021591,
+    "seen": 1791357795.7962387,
+    "ast_hash": "f374362b6c11fa146976f2600b396d0f",
+    "semantic_hash": "f374362b6c11fa146976f2600b396d0f"
+  },
+  "src/SocialConnect.Application/Features/Social/Commands/UnmuteUser/UnmuteUserCommandHandler.cs": {
+    "mtime": 1785062401.021591,
+    "seen": 1791357795.7962394,
+    "ast_hash": "85ffcc5b5b934427f6fb2ae4af930029",
+    "semantic_hash": "85ffcc5b5b934427f6fb2ae4af930029"
+  },
+  "src/SocialConnect.Application/Features/Social/DTOs/FollowUserDto.cs": {
+    "mtime": 1785062401.021591,
+    "seen": 1791357795.7962403,
+    "ast_hash": "7594c260b5034970b91da7940614a576",
+    "semantic_hash": "7594c260b5034970b91da7940614a576"
+  },
+  "src/SocialConnect.Application/Features/Social/Queries/GetFollowers/GetFollowersQuery.cs": {
+    "mtime": 1785062401.021591,
+    "seen": 1791357795.7962408,
+    "ast_hash": "e8961a4f654f53dd80610b35eead5cb2",
+    "semantic_hash": "e8961a4f654f53dd80610b35eead5cb2"
+  },
+  "src/SocialConnect.Application/Features/Social/Queries/GetFollowers/GetFollowersQueryHandler.cs": {
+    "mtime": 1785062401.021591,
+    "seen": 1791357795.7962418,
+    "ast_hash": "53313b61d9a7c092817f92af4849eb3d",
+    "semantic_hash": "53313b61d9a7c092817f92af4849eb3d"
+  },
+  "src/SocialConnect.Application/Features/Social/Queries/GetFollowing/GetFollowingQuery.cs": {
+    "mtime": 1785062401.021591,
+    "seen": 1791357795.7962427,
+    "ast_hash": "d46e9f4d62be35b82bb64d84bfaa67b2",
+    "semantic_hash": "d46e9f4d62be35b82bb64d84bfaa67b2"
+  },
+  "src/SocialConnect.Application/Features/Social/Queries/GetFollowing/GetFollowingQueryHandler.cs": {
+    "mtime": 1785062401.021591,
+    "seen": 1791357795.7962434,
+    "ast_hash": "eda9c1992c362c5499036e4bdbd6da6c",
+    "semantic_hash": "eda9c1992c362c5499036e4bdbd6da6c"
+  },
+  "src/SocialConnect.Application/Features/Users/Commands/UpdateProfile/UpdateProfileCommand.cs": {
+    "mtime": 1785062401.021591,
+    "seen": 1791357795.7962441,
+    "ast_hash": "529b49d6aa9cdcdcc84da0f5758b5c43",
+    "semantic_hash": "529b49d6aa9cdcdcc84da0f5758b5c43"
+  },
+  "src/SocialConnect.Application/Features/Users/Commands/UpdateProfile/UpdateProfileCommandHandler.cs": {
+    "mtime": 1785062401.021591,
+    "seen": 1791357795.796245,
+    "ast_hash": "b7c1b3a63129acddc6240e328e59a2f4",
+    "semantic_hash": "b7c1b3a63129acddc6240e328e59a2f4"
+  },
+  "src/SocialConnect.Application/Features/Users/Commands/UpdateProfile/UpdateProfileCommandValidator.cs": {
+    "mtime": 1785062401.021591,
+    "seen": 1791357795.796246,
+    "ast_hash": "5e730c1dd0c4edcbe5ee9e540149e27c",
+    "semantic_hash": "5e730c1dd0c4edcbe5ee9e540149e27c"
+  },
+  "src/SocialConnect.Application/Features/Users/Commands/UploadCoverImage/UploadCoverImageCommand.cs": {
+    "mtime": 1785062401.021591,
+    "seen": 1791357795.7962465,
+    "ast_hash": "8063a9fc8e0257ce758f645e32693090",
+    "semantic_hash": "8063a9fc8e0257ce758f645e32693090"
+  },
+  "src/SocialConnect.Application/Features/Users/Commands/UploadCoverImage/UploadCoverImageCommandHandler.cs": {
+    "mtime": 1785062401.021591,
+    "seen": 1791357795.7962475,
+    "ast_hash": "adbb2ac1281527045033d8a4f1a421e4",
+    "semantic_hash": "adbb2ac1281527045033d8a4f1a421e4"
+  },
+  "src/SocialConnect.Application/Features/Users/Commands/UploadProfileImage/UploadProfileImageCommand.cs": {
+    "mtime": 1785062401.021591,
+    "seen": 1791357795.7962484,
+    "ast_hash": "90b2e0835a55d98529dbc14e7f24c390",
+    "semantic_hash": "90b2e0835a55d98529dbc14e7f24c390"
+  },
+  "src/SocialConnect.Application/Features/Users/Commands/UploadProfileImage/UploadProfileImageCommandHandler.cs": {
+    "mtime": 1785062401.021591,
+    "seen": 1791357795.7962492,
+    "ast_hash": "88444247b6ebaad2e74e9e782506b5c7",
+    "semantic_hash": "88444247b6ebaad2e74e9e782506b5c7"
+  },
+  "src/SocialConnect.Application/Features/Users/DTOs/UserDto.cs": {
+    "mtime": 1785062401.021591,
+    "seen": 1791357795.7962499,
+    "ast_hash": "57a3e4f561b3db947831b11624c5ea35",
+    "semantic_hash": "57a3e4f561b3db947831b11624c5ea35"
+  },
+  "src/SocialConnect.Application/Features/Users/DTOs/UserProfileDto.cs": {
+    "mtime": 1785062401.021591,
+    "seen": 1791357795.7962506,
+    "ast_hash": "31079b0bb037ecb7ae04291f344c11d6",
+    "semantic_hash": "31079b0bb037ecb7ae04291f344c11d6"
+  },
+  "src/SocialConnect.Application/Features/Users/Queries/GetUserById/GetUserByIdQuery.cs": {
+    "mtime": 1785062401.021591,
+    "seen": 1791357795.796251,
+    "ast_hash": "7cd3d77b1223cc3b97776015e79bc9da",
+    "semantic_hash": "7cd3d77b1223cc3b97776015e79bc9da"
+  },
+  "src/SocialConnect.Application/Features/Users/Queries/GetUserById/GetUserByIdQueryHandler.cs": {
+    "mtime": 1785062401.021591,
+    "seen": 1791357795.7962523,
+    "ast_hash": "3050c0399fc0a30354e54b794bd551aa",
+    "semantic_hash": "3050c0399fc0a30354e54b794bd551aa"
+  },
+  "src/SocialConnect.Application/Features/Users/Queries/GetUserProfile/GetUserProfileQuery.cs": {
+    "mtime": 1785062401.021591,
+    "seen": 1791357795.796253,
+    "ast_hash": "cfea134e00ad645ca1611b41647f7a43",
+    "semantic_hash": "cfea134e00ad645ca1611b41647f7a43"
+  },
+  "src/SocialConnect.Application/Features/Users/Queries/GetUserProfile/GetUserProfileQueryHandler.cs": {
+    "mtime": 1785062401.021591,
+    "seen": 1791357795.7962537,
+    "ast_hash": "023951df8544f7b8d8a52b4d5029f1e7",
+    "semantic_hash": "023951df8544f7b8d8a52b4d5029f1e7"
+  },
+  "src/SocialConnect.Application/Features/Users/Queries/SearchUsers/SearchUsersQuery.cs": {
+    "mtime": 1785062401.021591,
+    "seen": 1791357795.7962546,
+    "ast_hash": "d63089acfcf15394f144e6acc02af816",
+    "semantic_hash": "d63089acfcf15394f144e6acc02af816"
+  },
+  "src/SocialConnect.Application/Features/Users/Queries/SearchUsers/SearchUsersQueryHandler.cs": {
+    "mtime": 1785062401.021591,
+    "seen": 1791357795.7962556,
+    "ast_hash": "9f107d2f2e9a1fc27b536c3bcf31e344",
+    "semantic_hash": "9f107d2f2e9a1fc27b536c3bcf31e344"
+  },
+  "src/SocialConnect.Application/SocialConnect.Application.csproj": {
+    "mtime": 1785062401.021591,
+    "seen": 1791357795.7962563,
+    "ast_hash": "330b272aed3d455a100acbf4a4e3474a",
+    "semantic_hash": "330b272aed3d455a100acbf4a4e3474a"
+  },
+  "src/SocialConnect.Domain/Common/AggregateRoot.cs": {
+    "mtime": 1785062401.021591,
+    "seen": 1791357795.796257,
+    "ast_hash": "6171362c3100315a5bab7bf7d5df0acf",
+    "semantic_hash": "6171362c3100315a5bab7bf7d5df0acf"
+  },
+  "src/SocialConnect.Domain/Common/Entity.cs": {
+    "mtime": 1785062401.021591,
+    "seen": 1791357795.796258,
+    "ast_hash": "e52aca96b9403b4aea942e6100747d99",
+    "semantic_hash": "e52aca96b9403b4aea942e6100747d99"
+  },
+  "src/SocialConnect.Domain/Common/IDomainEvent.cs": {
+    "mtime": 1785062401.021591,
+    "seen": 1791357795.796259,
+    "ast_hash": "6783481ae7eb257ec2beabc78c519815",
+    "semantic_hash": "6783481ae7eb257ec2beabc78c519815"
+  },
+  "src/SocialConnect.Domain/Common/IHasTimestamps.cs": {
+    "mtime": 1785062401.021591,
+    "seen": 1791357795.7962596,
+    "ast_hash": "30ff50d09fe46226d11a413c10ae4b48",
+    "semantic_hash": "30ff50d09fe46226d11a413c10ae4b48"
+  },
+  "src/SocialConnect.Domain/Common/ISoftDeletable.cs": {
+    "mtime": 1785062401.021591,
+    "seen": 1791357795.7962608,
+    "ast_hash": "7ad764eb9223b3538ec9359ebfb74937",
+    "semantic_hash": "7ad764eb9223b3538ec9359ebfb74937"
+  },
+  "src/SocialConnect.Domain/Common/ValueObject.cs": {
+    "mtime": 1785062401.035366,
+    "seen": 1791357795.7962615,
+    "ast_hash": "0c2f0bccadf590e20fbd321b6edcf643",
+    "semantic_hash": "0c2f0bccadf590e20fbd321b6edcf643"
+  },
+  "src/SocialConnect.Domain/Entities/Audit/AuditLog.cs": {
+    "mtime": 1785062401.035366,
+    "seen": 1791357795.7962627,
+    "ast_hash": "3e8ae65b2dc98e741bee5dff278a6351",
+    "semantic_hash": "3e8ae65b2dc98e741bee5dff278a6351"
+  },
+  "src/SocialConnect.Domain/Entities/Messaging/Conversation.cs": {
+    "mtime": 1785062401.035366,
+    "seen": 1791357795.7962635,
+    "ast_hash": "ce458f3cc2b563704e15b1913da09400",
+    "semantic_hash": "ce458f3cc2b563704e15b1913da09400"
+  },
+  "src/SocialConnect.Domain/Entities/Messaging/ConversationMember.cs": {
+    "mtime": 1785062401.035366,
+    "seen": 1791357795.7962642,
+    "ast_hash": "7890c1f970a67a599df06efb73b585fb",
+    "semantic_hash": "7890c1f970a67a599df06efb73b585fb"
+  },
+  "src/SocialConnect.Domain/Entities/Messaging/Message.cs": {
+    "mtime": 1785062401.035366,
+    "seen": 1791357795.7962651,
+    "ast_hash": "a0fc173b1f241c4521d05bf26c2ce061",
+    "semantic_hash": "a0fc173b1f241c4521d05bf26c2ce061"
+  },
+  "src/SocialConnect.Domain/Entities/Messaging/MessageAttachment.cs": {
+    "mtime": 1785062401.035366,
+    "seen": 1791357795.796266,
+    "ast_hash": "1b51160383fe34a00584e8265413e073",
+    "semantic_hash": "1b51160383fe34a00584e8265413e073"
+  },
+  "src/SocialConnect.Domain/Entities/Notifications/Notification.cs": {
+    "mtime": 1785062401.035366,
+    "seen": 1791357795.7962666,
+    "ast_hash": "96b3dba3a9c7d34ab7f6bc4349cd06cf",
+    "semantic_hash": "96b3dba3a9c7d34ab7f6bc4349cd06cf"
+  },
+  "src/SocialConnect.Domain/Entities/Posts/Comment.cs": {
+    "mtime": 1785062401.035366,
+    "seen": 1791357795.7962675,
+    "ast_hash": "f3ad6c119e975891987bef7d83a46c8b",
+    "semantic_hash": "f3ad6c119e975891987bef7d83a46c8b"
+  },
+  "src/SocialConnect.Domain/Entities/Posts/Post.cs": {
+    "mtime": 1785062401.035366,
+    "seen": 1791357795.7962682,
+    "ast_hash": "38bb038c5deb820c21e1fe33ba79d170",
+    "semantic_hash": "38bb038c5deb820c21e1fe33ba79d170"
+  },
+  "src/SocialConnect.Domain/Entities/Posts/PostMedia.cs": {
+    "mtime": 1785062401.035366,
+    "seen": 1791357795.7962694,
+    "ast_hash": "3c47993e5d9542871415a9d8ff33c85c",
+    "semantic_hash": "3c47993e5d9542871415a9d8ff33c85c"
+  },
+  "src/SocialConnect.Domain/Entities/Posts/Reaction.cs": {
+    "mtime": 1785062401.035366,
+    "seen": 1791357795.7962701,
+    "ast_hash": "318baaa93cfecdef24a5b06ae180e420",
+    "semantic_hash": "318baaa93cfecdef24a5b06ae180e420"
+  },
+  "src/SocialConnect.Domain/Entities/Social/Block.cs": {
+    "mtime": 1785062401.035366,
+    "seen": 1791357795.796271,
+    "ast_hash": "cb2af849e35215281c1503633bb57723",
+    "semantic_hash": "cb2af849e35215281c1503633bb57723"
+  },
+  "src/SocialConnect.Domain/Entities/Social/Follow.cs": {
+    "mtime": 1785062401.035366,
+    "seen": 1791357795.7962718,
+    "ast_hash": "9fdfaa5501791858e092c0c42e322272",
+    "semantic_hash": "9fdfaa5501791858e092c0c42e322272"
+  },
+  "src/SocialConnect.Domain/Entities/Social/Mute.cs": {
+    "mtime": 1785062401.035366,
+    "seen": 1791357795.7962728,
+    "ast_hash": "2c8d662949268c9c022d987371a5fef4",
+    "semantic_hash": "2c8d662949268c9c022d987371a5fef4"
+  },
+  "src/SocialConnect.Domain/Entities/Users/RefreshToken.cs": {
+    "mtime": 1785062401.035366,
+    "seen": 1791357795.7962735,
+    "ast_hash": "b4b741fd3861fd6c57fb1d57aea36da3",
+    "semantic_hash": "b4b741fd3861fd6c57fb1d57aea36da3"
+  },
+  "src/SocialConnect.Domain/Entities/Users/Role.cs": {
+    "mtime": 1785062401.035366,
+    "seen": 1791357795.796274,
+    "ast_hash": "cbafd8fe2970cf100028c766b806bd7a",
+    "semantic_hash": "cbafd8fe2970cf100028c766b806bd7a"
+  },
+  "src/SocialConnect.Domain/Entities/Users/User.cs": {
+    "mtime": 1785062401.035366,
+    "seen": 1791357795.796275,
+    "ast_hash": "8bbbbb76a375d6d9627608f49a1ac364",
+    "semantic_hash": "8bbbbb76a375d6d9627608f49a1ac364"
+  },
+  "src/SocialConnect.Domain/Entities/Users/UserProfile.cs": {
+    "mtime": 1785062401.035366,
+    "seen": 1791357795.7962756,
+    "ast_hash": "88a6c628d46c0cf90329229fe3518616",
+    "semantic_hash": "88a6c628d46c0cf90329229fe3518616"
+  },
+  "src/SocialConnect.Domain/Enums/ConversationMemberRole.cs": {
+    "mtime": 1785062401.035366,
+    "seen": 1791357795.7962766,
+    "ast_hash": "cc3d25d0012269ebca588de37b0056c8",
+    "semantic_hash": "cc3d25d0012269ebca588de37b0056c8"
+  },
+  "src/SocialConnect.Domain/Enums/ConversationType.cs": {
+    "mtime": 1785062401.035366,
+    "seen": 1791357795.7962773,
+    "ast_hash": "2840147035f817c109f4c05d0e0f35c9",
+    "semantic_hash": "2840147035f817c109f4c05d0e0f35c9"
+  },
+  "src/SocialConnect.Domain/Enums/MediaType.cs": {
+    "mtime": 1785062401.035366,
+    "seen": 1791357795.796278,
+    "ast_hash": "7c5a41e8af427932066a2974067d4ec6",
+    "semantic_hash": "7c5a41e8af427932066a2974067d4ec6"
+  },
+  "src/SocialConnect.Domain/Enums/MessageStatus.cs": {
+    "mtime": 1785062401.035366,
+    "seen": 1791357795.7962785,
+    "ast_hash": "66547c1574a0f45a20fd5c0e92d19e62",
+    "semantic_hash": "66547c1574a0f45a20fd5c0e92d19e62"
+  },
+  "src/SocialConnect.Domain/Enums/MessageType.cs": {
+    "mtime": 1785062401.035366,
+    "seen": 1791357795.7962792,
+    "ast_hash": "836f3114a332466ab87cc89576dbc2e9",
+    "semantic_hash": "836f3114a332466ab87cc89576dbc2e9"
+  },
+  "src/SocialConnect.Domain/Enums/NotificationType.cs": {
+    "mtime": 1785062401.035366,
+    "seen": 1791357795.7962801,
+    "ast_hash": "cbfbe61bf531a9f024ee82432b6b10e1",
+    "semantic_hash": "cbfbe61bf531a9f024ee82432b6b10e1"
+  },
+  "src/SocialConnect.Domain/Enums/PostStatus.cs": {
+    "mtime": 1785062401.035366,
+    "seen": 1791357795.7962809,
+    "ast_hash": "780a996b06985d0b2daf97ab7bd75f42",
+    "semantic_hash": "780a996b06985d0b2daf97ab7bd75f42"
+  },
+  "src/SocialConnect.Domain/Enums/PostType.cs": {
+    "mtime": 1785062401.035366,
+    "seen": 1791357795.7962816,
+    "ast_hash": "3f446aeb8d21a22aa8936e5fce862135",
+    "semantic_hash": "3f446aeb8d21a22aa8936e5fce862135"
+  },
+  "src/SocialConnect.Domain/Enums/ReactionType.cs": {
+    "mtime": 1785062401.035366,
+    "seen": 1791357795.7962823,
+    "ast_hash": "b7f245330c7acd2ee5ea4cc7ece8b6ec",
+    "semantic_hash": "b7f245330c7acd2ee5ea4cc7ece8b6ec"
+  },
+  "src/SocialConnect.Domain/Enums/TargetType.cs": {
+    "mtime": 1785062401.035366,
+    "seen": 1791357795.7962832,
+    "ast_hash": "2c2740ef63643c76c42de10768bb789c",
+    "semantic_hash": "2c2740ef63643c76c42de10768bb789c"
+  },
+  "src/SocialConnect.Domain/Events/Messaging/MessageSentDomainEvent.cs": {
+    "mtime": 1785062401.035366,
+    "seen": 1791357795.796284,
+    "ast_hash": "d954d6086423b48a50145fd2c677cfa9",
+    "semantic_hash": "d954d6086423b48a50145fd2c677cfa9"
+  },
+  "src/SocialConnect.Domain/Events/Notifications/NotificationCreatedDomainEvent.cs": {
+    "mtime": 1785062401.035366,
+    "seen": 1791357795.7962847,
+    "ast_hash": "372fc2a5e64dc5c1e688154d30c131e3",
+    "semantic_hash": "372fc2a5e64dc5c1e688154d30c131e3"
+  },
+  "src/SocialConnect.Domain/Events/Posts/PostCreatedDomainEvent.cs": {
+    "mtime": 1785062401.035366,
+    "seen": 1791357795.7962854,
+    "ast_hash": "dffb4c6d77057abcc7fbe69054fc5c3d",
+    "semantic_hash": "dffb4c6d77057abcc7fbe69054fc5c3d"
+  },
+  "src/SocialConnect.Domain/Events/Posts/PostPublishedDomainEvent.cs": {
+    "mtime": 1785062401.035366,
+    "seen": 1791357795.796286,
+    "ast_hash": "73343526c96f459919ae3627ba8841f2",
+    "semantic_hash": "73343526c96f459919ae3627ba8841f2"
+  },
+  "src/SocialConnect.Domain/Events/Users/UserRegisteredDomainEvent.cs": {
+    "mtime": 1785062401.035366,
+    "seen": 1791357795.796287,
+    "ast_hash": "f1420d50dfee2f47df91dfdc91c66d06",
+    "semantic_hash": "f1420d50dfee2f47df91dfdc91c66d06"
+  },
+  "src/SocialConnect.Domain/Events/Users/UserVerifiedDomainEvent.cs": {
+    "mtime": 1785062401.035366,
+    "seen": 1791357795.796288,
+    "ast_hash": "c580f574128b2b716d6cf2a3ffca94e2",
+    "semantic_hash": "c580f574128b2b716d6cf2a3ffca94e2"
+  },
+  "src/SocialConnect.Domain/Exceptions/BusinessRuleViolationException.cs": {
+    "mtime": 1785062401.035366,
+    "seen": 1791357795.7962887,
+    "ast_hash": "74679638d14a873ffbec0c51ffb5714d",
+    "semantic_hash": "74679638d14a873ffbec0c51ffb5714d"
+  },
+  "src/SocialConnect.Domain/Exceptions/DomainException.cs": {
+    "mtime": 1785062401.035366,
+    "seen": 1791357795.7962894,
+    "ast_hash": "b7daf6efb66442f18e5934b63700690f",
+    "semantic_hash": "b7daf6efb66442f18e5934b63700690f"
+  },
+  "src/SocialConnect.Domain/Exceptions/EntityNotFoundException.cs": {
+    "mtime": 1785062401.035366,
+    "seen": 1791357795.7962904,
+    "ast_hash": "e088b3e6c41c3a760a42f372ae3add78",
+    "semantic_hash": "e088b3e6c41c3a760a42f372ae3add78"
+  },
+  "src/SocialConnect.Domain/Repositories/ICommentRepository.cs": {
+    "mtime": 1785062401.035366,
+    "seen": 1791357795.7962909,
+    "ast_hash": "2f6f31b793b8cde82b99cbe257b799bb",
+    "semantic_hash": "2f6f31b793b8cde82b99cbe257b799bb"
+  },
+  "src/SocialConnect.Domain/Repositories/IConversationRepository.cs": {
+    "mtime": 1785062401.035366,
+    "seen": 1791357795.7962916,
+    "ast_hash": "98dd6485bfbdb4f26aef19a04d6c1e6e",
+    "semantic_hash": "98dd6485bfbdb4f26aef19a04d6c1e6e"
+  },
+  "src/SocialConnect.Domain/Repositories/IFollowRepository.cs": {
+    "mtime": 1785062401.035366,
+    "seen": 1791357795.7962923,
+    "ast_hash": "8e7d8f68fa877287274dc1b9f9f475af",
+    "semantic_hash": "8e7d8f68fa877287274dc1b9f9f475af"
+  },
+  "src/SocialConnect.Domain/Repositories/IMessageRepository.cs": {
+    "mtime": 1785062401.035366,
+    "seen": 1791357795.796293,
+    "ast_hash": "dc494ada1c88b247ad2b9a8e0f6dced1",
+    "semantic_hash": "dc494ada1c88b247ad2b9a8e0f6dced1"
+  },
+  "src/SocialConnect.Domain/Repositories/INotificationRepository.cs": {
+    "mtime": 1785062401.035366,
+    "seen": 1791357795.796294,
+    "ast_hash": "27b58318b6a6c9507fa42f17c9e9f6da",
+    "semantic_hash": "27b58318b6a6c9507fa42f17c9e9f6da"
+  },
+  "src/SocialConnect.Domain/Repositories/IPostRepository.cs": {
+    "mtime": 1785062401.035366,
+    "seen": 1791357795.796295,
+    "ast_hash": "81af9062219ae95f52404ee522e28b15",
+    "semantic_hash": "81af9062219ae95f52404ee522e28b15"
+  },
+  "src/SocialConnect.Domain/Repositories/IReactionRepository.cs": {
+    "mtime": 1785062401.035366,
+    "seen": 1791357795.796296,
+    "ast_hash": "25ce1960f5f6a92b9862c67aed0e1f3b",
+    "semantic_hash": "25ce1960f5f6a92b9862c67aed0e1f3b"
+  },
+  "src/SocialConnect.Domain/Repositories/IRepository.cs": {
+    "mtime": 1785062401.035366,
+    "seen": 1791357795.7962966,
+    "ast_hash": "d78fb56c35863b0b2f94f3cea06f2207",
+    "semantic_hash": "d78fb56c35863b0b2f94f3cea06f2207"
+  },
+  "src/SocialConnect.Domain/Repositories/IUnitOfWork.cs": {
+    "mtime": 1785062401.035366,
+    "seen": 1791357795.7962978,
+    "ast_hash": "286794d5889be584b95839e0889fe1e7",
+    "semantic_hash": "286794d5889be584b95839e0889fe1e7"
+  },
+  "src/SocialConnect.Domain/Repositories/IUserRepository.cs": {
+    "mtime": 1785062401.035366,
+    "seen": 1791357795.7962985,
+    "ast_hash": "fa7673b74bc97922d3c4516dd49c016d",
+    "semantic_hash": "fa7673b74bc97922d3c4516dd49c016d"
+  },
+  "src/SocialConnect.Domain/SocialConnect.Domain.csproj": {
+    "mtime": 1785062401.035366,
+    "seen": 1791357795.7962992,
+    "ast_hash": "d9f5b4736acd2d1e788a2fd053105c21",
+    "semantic_hash": "d9f5b4736acd2d1e788a2fd053105c21"
+  },
+  "src/SocialConnect.Domain/ValueObjects/Email.cs": {
+    "mtime": 1785062401.035366,
+    "seen": 1791357795.7963002,
+    "ast_hash": "bc856ed9e3e52855a43ebd3fb73518f0",
+    "semantic_hash": "bc856ed9e3e52855a43ebd3fb73518f0"
+  },
+  "src/SocialConnect.Domain/ValueObjects/MediaUrl.cs": {
+    "mtime": 1785062401.035366,
+    "seen": 1791357795.7963011,
+    "ast_hash": "20f2a0bf41427c5dc8a11639b5528478",
+    "semantic_hash": "20f2a0bf41427c5dc8a11639b5528478"
+  },
+  "src/SocialConnect.Domain/ValueObjects/Password.cs": {
+    "mtime": 1785062401.035366,
+    "seen": 1791357795.7963018,
+    "ast_hash": "2414fd1b0b02424bc5944732d1eb18ae",
+    "semantic_hash": "2414fd1b0b02424bc5944732d1eb18ae"
+  },
+  "src/SocialConnect.Domain/ValueObjects/PostContent.cs": {
+    "mtime": 1785062401.035366,
+    "seen": 1791357795.7963026,
+    "ast_hash": "01285a4f4efe091fef3765a63f261a69",
+    "semantic_hash": "01285a4f4efe091fef3765a63f261a69"
+  },
+  "src/SocialConnect.Infrastructure/BackgroundJobs/CleanupExpiredTokensJob.cs": {
+    "mtime": 1785062401.0478432,
+    "seen": 1791357795.7963033,
+    "ast_hash": "aeb138d1bd6149515939bd2198e96054",
+    "semantic_hash": "aeb138d1bd6149515939bd2198e96054"
+  },
+  "src/SocialConnect.Infrastructure/BackgroundJobs/CleanupOrphanUploadsJob.cs": {
+    "mtime": 1785062401.0478432,
+    "seen": 1791357795.7963042,
+    "ast_hash": "b166820e7deb087a304ca6890c1f5dce",
+    "semantic_hash": "b166820e7deb087a304ca6890c1f5dce"
+  },
+  "src/SocialConnect.Infrastructure/BackgroundJobs/ScheduledPostPublishJob.cs": {
+    "mtime": 1785062401.0478432,
+    "seen": 1791357795.7963052,
+    "ast_hash": "99ffaf76e11a09784236cceb8ae2a999",
+    "semantic_hash": "99ffaf76e11a09784236cceb8ae2a999"
+  },
+  "src/SocialConnect.Infrastructure/BackgroundJobs/ThumbnailGenerationJob.cs": {
+    "mtime": 1785062401.0478432,
+    "seen": 1791357795.796306,
+    "ast_hash": "bfad495cbd1396ab2dc7a2f8ddd61bc5",
+    "semantic_hash": "bfad495cbd1396ab2dc7a2f8ddd61bc5"
+  },
+  "src/SocialConnect.Infrastructure/DependencyInjection.cs": {
+    "mtime": 1785062401.0478432,
+    "seen": 1791357795.7963066,
+    "ast_hash": "917ab9065bc4c8482bc791ee6fd3eced",
+    "semantic_hash": "917ab9065bc4c8482bc791ee6fd3eced"
+  },
+  "src/SocialConnect.Infrastructure/Migrations/20260531065913_Initial_User.Designer.cs": {
+    "mtime": 1785062401.0478432,
+    "seen": 1791357795.796307,
+    "ast_hash": "abb568397714a9816e8222676ec99731",
+    "semantic_hash": "abb568397714a9816e8222676ec99731"
+  },
+  "src/SocialConnect.Infrastructure/Migrations/20260531065913_Initial_User.cs": {
+    "mtime": 1785062401.0478432,
+    "seen": 1791357795.7963083,
+    "ast_hash": "4d234473c13b054c4e545786a4cb31d3",
+    "semantic_hash": "4d234473c13b054c4e545786a4cb31d3"
+  },
+  "src/SocialConnect.Infrastructure/Migrations/20260531070032_Initial_UserProfile.Designer.cs": {
+    "mtime": 1785062401.0478432,
+    "seen": 1791357795.796309,
+    "ast_hash": "a3d1213b5b9f77bf74f31479999bf65c",
+    "semantic_hash": "a3d1213b5b9f77bf74f31479999bf65c"
+  },
+  "src/SocialConnect.Infrastructure/Migrations/20260531070032_Initial_UserProfile.cs": {
+    "mtime": 1785062401.0478432,
+    "seen": 1791357795.7963097,
+    "ast_hash": "077b7016f11ae69e5c1e65c9264b5e15",
+    "semantic_hash": "077b7016f11ae69e5c1e65c9264b5e15"
+  },
+  "src/SocialConnect.Infrastructure/Migrations/20260531070042_Initial_Role.Designer.cs": {
+    "mtime": 1785062401.0478432,
+    "seen": 1791357795.7963104,
+    "ast_hash": "426ea30206d75db8cda32aeb4a739a13",
+    "semantic_hash": "426ea30206d75db8cda32aeb4a739a13"
+  },
+  "src/SocialConnect.Infrastructure/Migrations/20260531070042_Initial_Role.cs": {
+    "mtime": 1785062401.0478432,
+    "seen": 1791357795.7963114,
+    "ast_hash": "6b41ed607ea5149172ae6adc677aad16",
+    "semantic_hash": "6b41ed607ea5149172ae6adc677aad16"
+  },
+  "src/SocialConnect.Infrastructure/Migrations/20260531070052_Initial_RefreshToken.Designer.cs": {
+    "mtime": 1785062401.0478432,
+    "seen": 1791357795.7963119,
+    "ast_hash": "139d5eea6300bf0ad2f5969a15e411da",
+    "semantic_hash": "139d5eea6300bf0ad2f5969a15e411da"
+  },
+  "src/SocialConnect.Infrastructure/Migrations/20260531070052_Initial_RefreshToken.cs": {
+    "mtime": 1785062401.0478432,
+    "seen": 1791357795.7963126,
+    "ast_hash": "96f2166198332873ccfcd3321035886f",
+    "semantic_hash": "96f2166198332873ccfcd3321035886f"
+  },
+  "src/SocialConnect.Infrastructure/Migrations/20260531070103_Initial_Skill.Designer.cs": {
+    "mtime": 1785062401.0478432,
+    "seen": 1791357795.7963135,
+    "ast_hash": "9e88cecf082c6eacac793c1edb74a768",
+    "semantic_hash": "9e88cecf082c6eacac793c1edb74a768"
+  },
+  "src/SocialConnect.Infrastructure/Migrations/20260531070103_Initial_Skill.cs": {
+    "mtime": 1785062401.0515013,
+    "seen": 1791357795.796314,
+    "ast_hash": "2be47306dee7497f6d3c59930cfce70a",
+    "semantic_hash": "2be47306dee7497f6d3c59930cfce70a"
+  },
+  "src/SocialConnect.Infrastructure/Migrations/20260531070113_Initial_WorkExperience.Designer.cs": {
+    "mtime": 1785062401.0515013,
+    "seen": 1791357795.796315,
+    "ast_hash": "2990d3b27dc3fdad0127ebe1814d2b57",
+    "semantic_hash": "2990d3b27dc3fdad0127ebe1814d2b57"
+  },
+  "src/SocialConnect.Infrastructure/Migrations/20260531070113_Initial_WorkExperience.cs": {
+    "mtime": 1785062401.0515013,
+    "seen": 1791357795.7963157,
+    "ast_hash": "db26bd1ff5309d4afd718bca7304aff6",
+    "semantic_hash": "db26bd1ff5309d4afd718bca7304aff6"
+  },
+  "src/SocialConnect.Infrastructure/Migrations/20260531070124_Initial_Education.Designer.cs": {
+    "mtime": 1785062401.0515013,
+    "seen": 1791357795.7963164,
+    "ast_hash": "3c5a0ac0e07cafde6fef166ad904e9b8",
+    "semantic_hash": "3c5a0ac0e07cafde6fef166ad904e9b8"
+  },
+  "src/SocialConnect.Infrastructure/Migrations/20260531070124_Initial_Education.cs": {
+    "mtime": 1785062401.0515013,
+    "seen": 1791357795.796317,
+    "ast_hash": "82e05807ca14ffef49e6b40cd0b6504f",
+    "semantic_hash": "82e05807ca14ffef49e6b40cd0b6504f"
+  },
+  "src/SocialConnect.Infrastructure/Migrations/20260531070135_Initial_Post.Designer.cs": {
+    "mtime": 1785062401.0515013,
+    "seen": 1791357795.796318,
+    "ast_hash": "a465ed520181d53de0816205075f612a",
+    "semantic_hash": "a465ed520181d53de0816205075f612a"
+  },
+  "src/SocialConnect.Infrastructure/Migrations/20260531070135_Initial_Post.cs": {
+    "mtime": 1785062401.0515013,
+    "seen": 1791357795.7963188,
+    "ast_hash": "dcd7dbd3b45f2ab5effd77195cec0650",
+    "semantic_hash": "dcd7dbd3b45f2ab5effd77195cec0650"
+  },
+  "src/SocialConnect.Infrastructure/Migrations/20260531070146_Initial_PostMedia.Designer.cs": {
+    "mtime": 1785062401.0515013,
+    "seen": 1791357795.7963195,
+    "ast_hash": "4dbccf9143811fa03c00ea808b9b3793",
+    "semantic_hash": "4dbccf9143811fa03c00ea808b9b3793"
+  },
+  "src/SocialConnect.Infrastructure/Migrations/20260531070146_Initial_PostMedia.cs": {
+    "mtime": 1785062401.0515013,
+    "seen": 1791357795.7963202,
+    "ast_hash": "4cef42a514defeacd7661a562c81d100",
+    "semantic_hash": "4cef42a514defeacd7661a562c81d100"
+  },
+  "src/SocialConnect.Infrastructure/Migrations/20260531070156_Initial_Comment.Designer.cs": {
+    "mtime": 1785062401.0515013,
+    "seen": 1791357795.796321,
+    "ast_hash": "89a34eb795e91d21da6c33474cc03119",
+    "semantic_hash": "89a34eb795e91d21da6c33474cc03119"
+  },
+  "src/SocialConnect.Infrastructure/Migrations/20260531070156_Initial_Comment.cs": {
+    "mtime": 1785062401.0515013,
+    "seen": 1791357795.7963219,
+    "ast_hash": "41bb3c9dd67a069d456c248f27942611",
+    "semantic_hash": "41bb3c9dd67a069d456c248f27942611"
+  },
+  "src/SocialConnect.Infrastructure/Migrations/20260531070207_Initial_Reaction.Designer.cs": {
+    "mtime": 1785062401.0515013,
+    "seen": 1791357795.7963228,
+    "ast_hash": "0de222692d64206a7f771ce4fb2bbc0c",
+    "semantic_hash": "0de222692d64206a7f771ce4fb2bbc0c"
+  },
+  "src/SocialConnect.Infrastructure/Migrations/20260531070207_Initial_Reaction.cs": {
+    "mtime": 1785062401.0515013,
+    "seen": 1791357795.7963233,
+    "ast_hash": "466f1017781dedb4825507a31b196ca0",
+    "semantic_hash": "466f1017781dedb4825507a31b196ca0"
+  },
+  "src/SocialConnect.Infrastructure/Migrations/20260531070217_Initial_Follow.Designer.cs": {
+    "mtime": 1785062401.0515013,
+    "seen": 1791357795.796324,
+    "ast_hash": "f272301f85ea35ea685a47c5dee5b7b8",
+    "semantic_hash": "f272301f85ea35ea685a47c5dee5b7b8"
+  },
+  "src/SocialConnect.Infrastructure/Migrations/20260531070217_Initial_Follow.cs": {
+    "mtime": 1785062401.0515013,
+    "seen": 1791357795.796325,
+    "ast_hash": "3962c520bfc25aa46d6657f58c22608b",
+    "semantic_hash": "3962c520bfc25aa46d6657f58c22608b"
+  },
+  "src/SocialConnect.Infrastructure/Migrations/20260531070227_Initial_Block.Designer.cs": {
+    "mtime": 1785062401.0515013,
+    "seen": 1791357795.7963257,
+    "ast_hash": "4a67ea73fbf20585e7a3f79bfccf135e",
+    "semantic_hash": "4a67ea73fbf20585e7a3f79bfccf135e"
+  },
+  "src/SocialConnect.Infrastructure/Migrations/20260531070227_Initial_Block.cs": {
+    "mtime": 1785062401.0515013,
+    "seen": 1791357795.7963264,
+    "ast_hash": "872c4b224339413fb2abcf6d6895c857",
+    "semantic_hash": "872c4b224339413fb2abcf6d6895c857"
+  },
+  "src/SocialConnect.Infrastructure/Migrations/20260531070238_Initial_Mute.Designer.cs": {
+    "mtime": 1785062401.0515013,
+    "seen": 1791357795.7963274,
+    "ast_hash": "1c0d92c0e7c3101fa05ede9175aeb518",
+    "semantic_hash": "1c0d92c0e7c3101fa05ede9175aeb518"
+  },
+  "src/SocialConnect.Infrastructure/Migrations/20260531070238_Initial_Mute.cs": {
+    "mtime": 1785062401.0515013,
+    "seen": 1791357795.7963283,
+    "ast_hash": "2de0f621c190967234d3200ae19d1dcd",
+    "semantic_hash": "2de0f621c190967234d3200ae19d1dcd"
+  },
+  "src/SocialConnect.Infrastructure/Migrations/20260531070248_Initial_Conversation.Designer.cs": {
+    "mtime": 1785062401.0515013,
+    "seen": 1791357795.796329,
+    "ast_hash": "56e20c8db6aff5875983637a069de24f",
+    "semantic_hash": "56e20c8db6aff5875983637a069de24f"
+  },
+  "src/SocialConnect.Infrastructure/Migrations/20260531070248_Initial_Conversation.cs": {
+    "mtime": 1785062401.0515013,
+    "seen": 1791357795.7963297,
+    "ast_hash": "7146e5659f067ee2790bfb3e75da6d9c",
+    "semantic_hash": "7146e5659f067ee2790bfb3e75da6d9c"
+  },
+  "src/SocialConnect.Infrastructure/Migrations/20260531070259_Initial_ConversationMember.Designer.cs": {
+    "mtime": 1785062401.0515013,
+    "seen": 1791357795.7963305,
+    "ast_hash": "51bdd2f7eb0405b5e7285ea93627a25a",
+    "semantic_hash": "51bdd2f7eb0405b5e7285ea93627a25a"
+  },
+  "src/SocialConnect.Infrastructure/Migrations/20260531070259_Initial_ConversationMember.cs": {
+    "mtime": 1785062401.0515013,
+    "seen": 1791357795.7963312,
+    "ast_hash": "7cb824b5302e08241d691b735f19a224",
+    "semantic_hash": "7cb824b5302e08241d691b735f19a224"
+  },
+  "src/SocialConnect.Infrastructure/Migrations/20260531070309_Initial_Message.Designer.cs": {
+    "mtime": 1785062401.0515013,
+    "seen": 1791357795.7963321,
+    "ast_hash": "531393beaf429e1ede9eb30e69c1cc7f",
+    "semantic_hash": "531393beaf429e1ede9eb30e69c1cc7f"
+  },
+  "src/SocialConnect.Infrastructure/Migrations/20260531070309_Initial_Message.cs": {
+    "mtime": 1785062401.0515013,
+    "seen": 1791357795.7963328,
+    "ast_hash": "453b1c6f5a9dcdc44efeeafe40fcf955",
+    "semantic_hash": "453b1c6f5a9dcdc44efeeafe40fcf955"
+  },
+  "src/SocialConnect.Infrastructure/Migrations/20260531070324_Initial_MessageAttachment.Designer.cs": {
+    "mtime": 1785062401.0515013,
+    "seen": 1791357795.7963336,
+    "ast_hash": "89a6230065656010cdd3f321830a3aef",
+    "semantic_hash": "89a6230065656010cdd3f321830a3aef"
+  },
+  "src/SocialConnect.Infrastructure/Migrations/20260531070324_Initial_MessageAttachment.cs": {
+    "mtime": 1785062401.0515013,
+    "seen": 1791357795.7963343,
+    "ast_hash": "b7e4cca38a0abfbbef6da6b3c623ae28",
+    "semantic_hash": "b7e4cca38a0abfbbef6da6b3c623ae28"
+  },
+  "src/SocialConnect.Infrastructure/Migrations/20260531070336_Initial_Notification.Designer.cs": {
+    "mtime": 1785062401.0515013,
+    "seen": 1791357795.7963352,
+    "ast_hash": "4fca31ec02227b8a8c42f59c0b2f3d56",
+    "semantic_hash": "4fca31ec02227b8a8c42f59c0b2f3d56"
+  },
+  "src/SocialConnect.Infrastructure/Migrations/20260531070336_Initial_Notification.cs": {
+    "mtime": 1785062401.0515013,
+    "seen": 1791357795.796336,
+    "ast_hash": "459eda5772641e83784e0bd3fc7b7a63",
+    "semantic_hash": "459eda5772641e83784e0bd3fc7b7a63"
+  },
+  "src/SocialConnect.Infrastructure/Migrations/20260606064106_RemoveProfessionalEntities.Designer.cs": {
+    "mtime": 1785062401.0515013,
+    "seen": 1791357795.7963367,
+    "ast_hash": "b2673ada1030f8f6dc011d1b800ee323",
+    "semantic_hash": "b2673ada1030f8f6dc011d1b800ee323"
+  },
+  "src/SocialConnect.Infrastructure/Migrations/20260606064106_RemoveProfessionalEntities.cs": {
+    "mtime": 1785062401.0515013,
+    "seen": 1791357795.7963374,
+    "ast_hash": "2169a64898ba6da108de4e72423c58d8",
+    "semantic_hash": "2169a64898ba6da108de4e72423c58d8"
+  },
+  "src/SocialConnect.Infrastructure/Migrations/ApplicationDbContextModelSnapshot.cs": {
+    "mtime": 1785062401.0515013,
+    "seen": 1791357795.796338,
+    "ast_hash": "3d544aa175ae6eba3d566d6c7f736b2a",
+    "semantic_hash": "3d544aa175ae6eba3d566d6c7f736b2a"
+  },
+  "src/SocialConnect.Infrastructure/Persistence/ApplicationDbContext.cs": {
+    "mtime": 1785062401.0515013,
+    "seen": 1791357795.796339,
+    "ast_hash": "76a5db4f299dac5d8819e8bca4819538",
+    "semantic_hash": "76a5db4f299dac5d8819e8bca4819538"
+  },
+  "src/SocialConnect.Infrastructure/Persistence/ApplicationDbContextFactory.cs": {
+    "mtime": 1785062401.0515013,
+    "seen": 1791357795.7963398,
+    "ast_hash": "2b384dd325ffb444362017f6b011ea46",
+    "semantic_hash": "2b384dd325ffb444362017f6b011ea46"
+  },
+  "src/SocialConnect.Infrastructure/Persistence/Configurations/BlockConfiguration.cs": {
+    "mtime": 1785062401.0515013,
+    "seen": 1791357795.7963405,
+    "ast_hash": "096ea9e6d728308945f44f29ce297bdc",
+    "semantic_hash": "096ea9e6d728308945f44f29ce297bdc"
+  },
+  "src/SocialConnect.Infrastructure/Persistence/Configurations/CommentConfiguration.cs": {
+    "mtime": 1785062401.0515013,
+    "seen": 1791357795.7963412,
+    "ast_hash": "715993c83d0bf800dab8e6b4fcea3e9b",
+    "semantic_hash": "715993c83d0bf800dab8e6b4fcea3e9b"
+  },
+  "src/SocialConnect.Infrastructure/Persistence/Configurations/ConversationConfiguration.cs": {
+    "mtime": 1785062401.0515013,
+    "seen": 1791357795.7963421,
+    "ast_hash": "b948728338583b2725769b6f2c0e33ec",
+    "semantic_hash": "b948728338583b2725769b6f2c0e33ec"
+  },
+  "src/SocialConnect.Infrastructure/Persistence/Configurations/ConversationMemberConfiguration.cs": {
+    "mtime": 1785062401.0515013,
+    "seen": 1791357795.7963428,
+    "ast_hash": "e40bffd278ea193384ccd8ee51def844",
+    "semantic_hash": "e40bffd278ea193384ccd8ee51def844"
+  },
+  "src/SocialConnect.Infrastructure/Persistence/Configurations/FollowConfiguration.cs": {
+    "mtime": 1785062401.0515013,
+    "seen": 1791357795.7963438,
+    "ast_hash": "d187fbce2c8b6a8907b68f806a8d9695",
+    "semantic_hash": "d187fbce2c8b6a8907b68f806a8d9695"
+  },
+  "src/SocialConnect.Infrastructure/Persistence/Configurations/MessageConfiguration.cs": {
+    "mtime": 1785062401.0515013,
+    "seen": 1791357795.7963443,
+    "ast_hash": "c8eecbee15aba6e48ee3597a260b0619",
+    "semantic_hash": "c8eecbee15aba6e48ee3597a260b0619"
+  },
+  "src/SocialConnect.Infrastructure/Persistence/Configurations/MuteConfiguration.cs": {
+    "mtime": 1785062401.0515013,
+    "seen": 1791357795.796345,
+    "ast_hash": "6c38893c61fc4b37b4dcf5ad8f4666b8",
+    "semantic_hash": "6c38893c61fc4b37b4dcf5ad8f4666b8"
+  },
+  "src/SocialConnect.Infrastructure/Persistence/Configurations/NotificationConfiguration.cs": {
+    "mtime": 1785062401.0515013,
+    "seen": 1791357795.796346,
+    "ast_hash": "2d0ab0ea5f442833f1e82e78109a019b",
+    "semantic_hash": "2d0ab0ea5f442833f1e82e78109a019b"
+  },
+  "src/SocialConnect.Infrastructure/Persistence/Configurations/PostConfiguration.cs": {
+    "mtime": 1785062401.0515013,
+    "seen": 1791357795.7963467,
+    "ast_hash": "41a54d5fcabd24af83457603455a7fa0",
+    "semantic_hash": "41a54d5fcabd24af83457603455a7fa0"
+  },
+  "src/SocialConnect.Infrastructure/Persistence/Configurations/PostMediaConfiguration.cs": {
+    "mtime": 1785062401.0515013,
+    "seen": 1791357795.7963474,
+    "ast_hash": "2b82e92cc5d8294e17354be3d85cf0dc",
+    "semantic_hash": "2b82e92cc5d8294e17354be3d85cf0dc"
+  },
+  "src/SocialConnect.Infrastructure/Persistence/Configurations/UserConfiguration.cs": {
+    "mtime": 1785062401.0515013,
+    "seen": 1791357795.7963479,
+    "ast_hash": "09e2eb674f9ab95d342012bda85d09dc",
+    "semantic_hash": "09e2eb674f9ab95d342012bda85d09dc"
+  },
+  "src/SocialConnect.Infrastructure/Persistence/Interceptors/AuditLoggingInterceptor.cs": {
+    "mtime": 1785062401.0515013,
+    "seen": 1791357795.7963486,
+    "ast_hash": "a0d1f5240ce304bb4b225f0aef449bee",
+    "semantic_hash": "a0d1f5240ce304bb4b225f0aef449bee"
+  },
+  "src/SocialConnect.Infrastructure/Persistence/Interceptors/AuditableEntitySaveChangesInterceptor.cs": {
+    "mtime": 1785062401.0515013,
+    "seen": 1791357795.7963495,
+    "ast_hash": "1ceb7c2c56d816bd1f1f5362b0e0c63f",
+    "semantic_hash": "1ceb7c2c56d816bd1f1f5362b0e0c63f"
+  },
+  "src/SocialConnect.Infrastructure/Persistence/Interceptors/ChangeTrackerExtensions.cs": {
+    "mtime": 1785062401.0515013,
+    "seen": 1791357795.7963502,
+    "ast_hash": "66d143b4bfb4cb4688b0583e196a3c13",
+    "semantic_hash": "66d143b4bfb4cb4688b0583e196a3c13"
+  },
+  "src/SocialConnect.Infrastructure/Persistence/Repositories/CommentRepository.cs": {
+    "mtime": 1785062401.0515013,
+    "seen": 1791357795.7963507,
+    "ast_hash": "800371a96e2c24381191fe50129b5255",
+    "semantic_hash": "800371a96e2c24381191fe50129b5255"
+  },
+  "src/SocialConnect.Infrastructure/Persistence/Repositories/ConversationRepository.cs": {
+    "mtime": 1785062401.0515013,
+    "seen": 1791357795.7963517,
+    "ast_hash": "753a8e00a1376068c6d7fdfb5faea27b",
+    "semantic_hash": "753a8e00a1376068c6d7fdfb5faea27b"
+  },
+  "src/SocialConnect.Infrastructure/Persistence/Repositories/FollowRepository.cs": {
+    "mtime": 1785062401.0515013,
+    "seen": 1791357795.7963526,
+    "ast_hash": "d3eeecbf1d612df2dad18269fe4b9ab8",
+    "semantic_hash": "d3eeecbf1d612df2dad18269fe4b9ab8"
+  },
+  "src/SocialConnect.Infrastructure/Persistence/Repositories/MessageRepository.cs": {
+    "mtime": 1785062401.0515013,
+    "seen": 1791357795.7963533,
+    "ast_hash": "5c422f5fac50d07e849c87b6bd6ef6e9",
+    "semantic_hash": "5c422f5fac50d07e849c87b6bd6ef6e9"
+  },
+  "src/SocialConnect.Infrastructure/Persistence/Repositories/NotificationRepository.cs": {
+    "mtime": 1785062401.0515013,
+    "seen": 1791357795.7963543,
+    "ast_hash": "920b6e389f43190cb96b50bbb8f0cdfb",
+    "semantic_hash": "920b6e389f43190cb96b50bbb8f0cdfb"
+  },
+  "src/SocialConnect.Infrastructure/Persistence/Repositories/PostRepository.cs": {
+    "mtime": 1785062401.0515013,
+    "seen": 1791357795.796355,
+    "ast_hash": "39ccfc1234bb68b2869513da8aadcad0",
+    "semantic_hash": "39ccfc1234bb68b2869513da8aadcad0"
+  },
+  "src/SocialConnect.Infrastructure/Persistence/Repositories/ReactionRepository.cs": {
+    "mtime": 1785062401.0515013,
+    "seen": 1791357795.7963562,
+    "ast_hash": "ec4f083870511f9c2dd8e11e2fc58576",
+    "semantic_hash": "ec4f083870511f9c2dd8e11e2fc58576"
+  },
+  "src/SocialConnect.Infrastructure/Persistence/Repositories/Repository.cs": {
+    "mtime": 1785062401.0515013,
+    "seen": 1791357795.796357,
+    "ast_hash": "a46bc3b8a589d221b65acc09501197a9",
+    "semantic_hash": "a46bc3b8a589d221b65acc09501197a9"
+  },
+  "src/SocialConnect.Infrastructure/Persistence/Repositories/UnitOfWork.cs": {
+    "mtime": 1785062401.0515013,
+    "seen": 1791357795.7963576,
+    "ast_hash": "15ed3c7cbc48bb1407c5f90c75e451a1",
+    "semantic_hash": "15ed3c7cbc48bb1407c5f90c75e451a1"
+  },
+  "src/SocialConnect.Infrastructure/Persistence/Repositories/UserRepository.cs": {
+    "mtime": 1785062401.0515013,
+    "seen": 1791357795.7963583,
+    "ast_hash": "f56d967a75d6fb3f563eec0d41093084",
+    "semantic_hash": "f56d967a75d6fb3f563eec0d41093084"
+  },
+  "src/SocialConnect.Infrastructure/Services/BackgroundJobService.cs": {
+    "mtime": 1785062401.0515013,
+    "seen": 1791357795.796359,
+    "ast_hash": "b1c007abd2934aa85e94fba96b317a55",
+    "semantic_hash": "b1c007abd2934aa85e94fba96b317a55"
+  },
+  "src/SocialConnect.Infrastructure/Services/BackgroundJobsRegistrationHostedService.cs": {
+    "mtime": 1785062401.0515013,
+    "seen": 1791357795.79636,
+    "ast_hash": "863454c62d64af23462108b822a210b2",
+    "semantic_hash": "863454c62d64af23462108b822a210b2"
+  },
+  "src/SocialConnect.Infrastructure/Services/CacheService.cs": {
+    "mtime": 1785062401.0515013,
+    "seen": 1791357795.796361,
+    "ast_hash": "54d88e9268838df15702bc2a3b315de3",
+    "semantic_hash": "54d88e9268838df15702bc2a3b315de3"
+  },
+  "src/SocialConnect.Infrastructure/Services/DateTimeService.cs": {
+    "mtime": 1785062401.0515013,
+    "seen": 1791357795.796362,
+    "ast_hash": "bbb9d4f4736368e9a5151e37bc574033",
+    "semantic_hash": "bbb9d4f4736368e9a5151e37bc574033"
+  },
+  "src/SocialConnect.Infrastructure/Services/EmailService.cs": {
+    "mtime": 1785062401.0515013,
+    "seen": 1791357795.7963626,
+    "ast_hash": "bff265079f9dea62bf182f6281bbaa87",
+    "semantic_hash": "bff265079f9dea62bf182f6281bbaa87"
+  },
+  "src/SocialConnect.Infrastructure/Services/PasswordHasher.cs": {
+    "mtime": 1785062401.0515013,
+    "seen": 1791357795.7963636,
+    "ast_hash": "5f8fe2145f503a15263581bbd7ed683b",
+    "semantic_hash": "5f8fe2145f503a15263581bbd7ed683b"
+  },
+  "src/SocialConnect.Infrastructure/Services/RabbitMqEventBus.cs": {
+    "mtime": 1785062401.0515013,
+    "seen": 1791357795.7963643,
+    "ast_hash": "932039085bc77e7feda351e0ba23b871",
+    "semantic_hash": "932039085bc77e7feda351e0ba23b871"
+  },
+  "src/SocialConnect.Infrastructure/Services/S3FileStorageService.cs": {
+    "mtime": 1785062401.0515013,
+    "seen": 1791357795.796365,
+    "ast_hash": "f094fe968175bdd3271a15888f35895e",
+    "semantic_hash": "f094fe968175bdd3271a15888f35895e"
+  },
+  "src/SocialConnect.Infrastructure/Services/TokenService.cs": {
+    "mtime": 1785062401.0515013,
+    "seen": 1791357795.7963657,
+    "ast_hash": "c443c0981067b466234bf02ee2feba93",
+    "semantic_hash": "c443c0981067b466234bf02ee2feba93"
+  },
+  "src/SocialConnect.Infrastructure/SocialConnect.Infrastructure.csproj": {
+    "mtime": 1785062401.0515013,
+    "seen": 1791357795.7963667,
+    "ast_hash": "fb498ad0bd4869220d80f12e67e10dce",
+    "semantic_hash": "fb498ad0bd4869220d80f12e67e10dce"
+  },
+  "tests/SocialConnect.API.Tests/AuditLoggingIntegrationTests.cs": {
+    "mtime": 1785062401.0515013,
+    "seen": 1791357795.7963674,
+    "ast_hash": "6f6c8b0b0b765de620ddf059ab7f5d2b",
+    "semantic_hash": "6f6c8b0b0b765de620ddf059ab7f5d2b"
+  },
+  "tests/SocialConnect.API.Tests/AuthIntegrationTests.cs": {
+    "mtime": 1785062401.0515013,
+    "seen": 1791357795.796368,
+    "ast_hash": "3f2fae972b54b10fc8ea1f644af90fe2",
+    "semantic_hash": "3f2fae972b54b10fc8ea1f644af90fe2"
+  },
+  "tests/SocialConnect.API.Tests/CommentsIntegrationTests.cs": {
+    "mtime": 1785062401.0515013,
+    "seen": 1791357795.7963688,
+    "ast_hash": "62644c2f6ba1d2016f4a088053a31395",
+    "semantic_hash": "62644c2f6ba1d2016f4a088053a31395"
+  },
+  "tests/SocialConnect.API.Tests/Controllers/ControllerTests.cs": {
+    "mtime": 1785062401.0515013,
+    "seen": 1791357795.7963696,
+    "ast_hash": "883516734f25efaf3aa2b1d3a898699f",
+    "semantic_hash": "883516734f25efaf3aa2b1d3a898699f"
+  },
+  "tests/SocialConnect.API.Tests/IntegrationTestWebAppFactory.cs": {
+    "mtime": 1785062401.0515013,
+    "seen": 1791357795.7963705,
+    "ast_hash": "45c430be3f03b9dfcc5293d8b9f82997",
+    "semantic_hash": "45c430be3f03b9dfcc5293d8b9f82997"
+  },
+  "tests/SocialConnect.API.Tests/MessagingIntegrationTests.cs": {
+    "mtime": 1785062401.0515013,
+    "seen": 1791357795.7963712,
+    "ast_hash": "d1643f4f00fc06f0f1a856e1c9d16641",
+    "semantic_hash": "d1643f4f00fc06f0f1a856e1c9d16641"
+  },
+  "tests/SocialConnect.API.Tests/PostsIntegrationTests.cs": {
+    "mtime": 1785062401.0515013,
+    "seen": 1791357795.7963789,
+    "ast_hash": "31f312be4bcf31e6dceb46d12181acdb",
+    "semantic_hash": "31f312be4bcf31e6dceb46d12181acdb"
+  },
+  "tests/SocialConnect.API.Tests/SmokeTests.cs": {
+    "mtime": 1785062401.0515013,
+    "seen": 1791357795.7963796,
+    "ast_hash": "ec240e6b9e166e052da34c419c63bce6",
+    "semantic_hash": "ec240e6b9e166e052da34c419c63bce6"
+  },
+  "tests/SocialConnect.API.Tests/SocialConnect.API.Tests.csproj": {
+    "mtime": 1785062401.0515013,
+    "seen": 1791357795.7963808,
+    "ast_hash": "87491b585b6d596bc248886062826209",
+    "semantic_hash": "87491b585b6d596bc248886062826209"
+  },
+  "tests/SocialConnect.API.Tests/UsersIntegrationTests.cs": {
+    "mtime": 1785062401.067707,
+    "seen": 1791357795.7963812,
+    "ast_hash": "d27bc4defb3a94591e8759facba8ae9c",
+    "semantic_hash": "d27bc4defb3a94591e8759facba8ae9c"
+  },
+  "tests/SocialConnect.Application.Tests/Auth/AuthCommandHandlerTests.cs": {
+    "mtime": 1785062401.067707,
+    "seen": 1791357795.7963822,
+    "ast_hash": "4747fd1115686d0e2a2527aa72ac8d42",
+    "semantic_hash": "4747fd1115686d0e2a2527aa72ac8d42"
+  },
+  "tests/SocialConnect.Application.Tests/BackgroundJobs/BackgroundJobTests.cs": {
+    "mtime": 1785062401.0685291,
+    "seen": 1791357795.796383,
+    "ast_hash": "d3583431cd0b551cacd3f593a6d17971",
+    "semantic_hash": "d3583431cd0b551cacd3f593a6d17971"
+  },
+  "tests/SocialConnect.Application.Tests/Behaviors/ValidationBehaviorTests.cs": {
+    "mtime": 1785062401.0690386,
+    "seen": 1791357795.7963839,
+    "ast_hash": "b2cf5b1873a0b57d28c7bf84e1d6d618",
+    "semantic_hash": "b2cf5b1873a0b57d28c7bf84e1d6d618"
+  },
+  "tests/SocialConnect.Application.Tests/Comments/Commands/DeleteCommentCommandHandlerTests.cs": {
+    "mtime": 1785062401.0690386,
+    "seen": 1791357795.7963846,
+    "ast_hash": "964992069f7afc090aad477b8d418c5f",
+    "semantic_hash": "964992069f7afc090aad477b8d418c5f"
+  },
+  "tests/SocialConnect.Application.Tests/Comments/Commands/UpdateCommentCommandHandlerTests.cs": {
+    "mtime": 1785062401.0690386,
+    "seen": 1791357795.7963853,
+    "ast_hash": "0355068f5ad97fb75bb2541082ecdbf7",
+    "semantic_hash": "0355068f5ad97fb75bb2541082ecdbf7"
+  },
+  "tests/SocialConnect.Application.Tests/Messaging/AddGroupMemberCommandHandlerTests.cs": {
+    "mtime": 1785062401.0690386,
+    "seen": 1791357795.796386,
+    "ast_hash": "77efb2f10bf0485f163063c0d9f9517f",
+    "semantic_hash": "77efb2f10bf0485f163063c0d9f9517f"
+  },
+  "tests/SocialConnect.Application.Tests/Messaging/CreateConversationCommandHandlerTests.cs": {
+    "mtime": 1785062401.0690386,
+    "seen": 1791357795.7963867,
+    "ast_hash": "5dac4aa129c2eb9ee648f0cdb9f57747",
+    "semantic_hash": "5dac4aa129c2eb9ee648f0cdb9f57747"
+  },
+  "tests/SocialConnect.Application.Tests/Messaging/CreateGroupChatCommandHandlerTests.cs": {
+    "mtime": 1785062401.0690386,
+    "seen": 1791357795.7963877,
+    "ast_hash": "bbd708022f99f15f085f978a9655857c",
+    "semantic_hash": "bbd708022f99f15f085f978a9655857c"
+  },
+  "tests/SocialConnect.Application.Tests/Messaging/DeleteMessageCommandHandlerTests.cs": {
+    "mtime": 1785062401.0690386,
+    "seen": 1791357795.7963884,
+    "ast_hash": "093983b1e02e225b173467dbc0c50666",
+    "semantic_hash": "093983b1e02e225b173467dbc0c50666"
+  },
+  "tests/SocialConnect.Application.Tests/Messaging/EditMessageCommandHandlerTests.cs": {
+    "mtime": 1785062401.0789258,
+    "seen": 1791357795.796389,
+    "ast_hash": "34f35df27ef7beb7a3ee35b85b63e53c",
+    "semantic_hash": "34f35df27ef7beb7a3ee35b85b63e53c"
+  },
+  "tests/SocialConnect.Application.Tests/Messaging/GetConversationsQueryHandlerTests.cs": {
+    "mtime": 1785062401.0794978,
+    "seen": 1791357795.7963898,
+    "ast_hash": "2c7144a7a0c5802a72db327e360279e0",
+    "semantic_hash": "2c7144a7a0c5802a72db327e360279e0"
+  },
+  "tests/SocialConnect.Application.Tests/Messaging/GetMessagesQueryHandlerTests.cs": {
+    "mtime": 1785062401.0794978,
+    "seen": 1791357795.796391,
+    "ast_hash": "4ec29436d31ad275269ddcc81b7f9519",
+    "semantic_hash": "4ec29436d31ad275269ddcc81b7f9519"
+  },
+  "tests/SocialConnect.Application.Tests/Messaging/MarkAsReadCommandHandlerTests.cs": {
+    "mtime": 1785062401.0800052,
+    "seen": 1791357795.7963915,
+    "ast_hash": "891cbc2a339ca0c86d6db9905c00ef0d",
+    "semantic_hash": "891cbc2a339ca0c86d6db9905c00ef0d"
+  },
+  "tests/SocialConnect.Application.Tests/Messaging/RemoveGroupMemberCommandHandlerTests.cs": {
+    "mtime": 1785062401.0800052,
+    "seen": 1791357795.7963924,
+    "ast_hash": "9312ddc7f75b45f646f555bf7836a5ea",
+    "semantic_hash": "9312ddc7f75b45f646f555bf7836a5ea"
+  },
+  "tests/SocialConnect.Application.Tests/Notifications/NotificationCommandHandlerTests.cs": {
+    "mtime": 1785062401.0805354,
+    "seen": 1791357795.7963932,
+    "ast_hash": "e5c073b46dd282172fc8ee31a8f0d50d",
+    "semantic_hash": "e5c073b46dd282172fc8ee31a8f0d50d"
+  },
+  "tests/SocialConnect.Application.Tests/Posts/Commands/PublishPostCommandHandlerTests.cs": {
+    "mtime": 1785062401.0810435,
+    "seen": 1791357795.7963943,
+    "ast_hash": "e9a43ff7cb46a8bcb3c0e8e15d60247a",
+    "semantic_hash": "e9a43ff7cb46a8bcb3c0e8e15d60247a"
+  },
+  "tests/SocialConnect.Application.Tests/Posts/Commands/SchedulePostCommandHandlerTests.cs": {
+    "mtime": 1785062401.0810435,
+    "seen": 1791357795.796395,
+    "ast_hash": "fdc063078758bf7986e4e40c216d3824",
+    "semantic_hash": "fdc063078758bf7986e4e40c216d3824"
+  },
+  "tests/SocialConnect.Application.Tests/Posts/Commands/UploadPostMediaCommandHandlerTests.cs": {
+    "mtime": 1785062401.0816534,
+    "seen": 1791357795.7963958,
+    "ast_hash": "ce83674d2e294ab3f8c07dbb52050483",
+    "semantic_hash": "ce83674d2e294ab3f8c07dbb52050483"
+  },
+  "tests/SocialConnect.Application.Tests/Posts/Queries/SearchPostsQueryHandlerTests.cs": {
+    "mtime": 1785062401.0816534,
+    "seen": 1791357795.7963965,
+    "ast_hash": "8a6c64d555928d75d27c9f84efac7314",
+    "semantic_hash": "8a6c64d555928d75d27c9f84efac7314"
+  },
+  "tests/SocialConnect.Application.Tests/Reactions/Queries/GetReactionsQueryHandlerTests.cs": {
+    "mtime": 1785062401.082205,
+    "seen": 1791357795.7963972,
+    "ast_hash": "cd9d7a89e0b281b8bbbb694199efad86",
+    "semantic_hash": "cd9d7a89e0b281b8bbbb694199efad86"
+  },
+  "tests/SocialConnect.Application.Tests/SocialConnect.Application.Tests.csproj": {
+    "mtime": 1785062401.083219,
+    "seen": 1791357795.796398,
+    "ast_hash": "6e4cbfd7a79b4c3d9a3c52f275098fbf",
+    "semantic_hash": "6e4cbfd7a79b4c3d9a3c52f275098fbf"
+  },
+  "tests/SocialConnect.Application.Tests/Social/Commands/BlockUserCommandHandlerTests.cs": {
+    "mtime": 1785062401.0827117,
+    "seen": 1791357795.7963986,
+    "ast_hash": "d38c3d38af4d5eb3b9ae5d274288cf54",
+    "semantic_hash": "d38c3d38af4d5eb3b9ae5d274288cf54"
+  },
+  "tests/SocialConnect.Application.Tests/Social/Commands/MuteUserCommandHandlerTests.cs": {
+    "mtime": 1785062401.0827117,
+    "seen": 1791357795.7963994,
+    "ast_hash": "80e22085fe3d12455fc274a579c8e79c",
+    "semantic_hash": "80e22085fe3d12455fc274a579c8e79c"
+  },
+  "tests/SocialConnect.Application.Tests/Users/Commands/ChangePasswordCommandHandlerTests.cs": {
+    "mtime": 1785062401.083219,
+    "seen": 1791357795.7964003,
+    "ast_hash": "a0bde70128ae496244d6275628185e6c",
+    "semantic_hash": "a0bde70128ae496244d6275628185e6c"
+  },
+  "tests/SocialConnect.Application.Tests/Users/Commands/DbSetMockHelper.cs": {
+    "mtime": 1785062401.0837665,
+    "seen": 1791357795.7964008,
+    "ast_hash": "d22eac44ed8bbb16499bc9128c2f8b96",
+    "semantic_hash": "d22eac44ed8bbb16499bc9128c2f8b96"
+  },
+  "tests/SocialConnect.Application.Tests/Users/Commands/ForgotPasswordCommandHandlerTests.cs": {
+    "mtime": 1785062401.0837665,
+    "seen": 1791357795.7964017,
+    "ast_hash": "5daf0a8d9d87cc81748004bcae07dd68",
+    "semantic_hash": "5daf0a8d9d87cc81748004bcae07dd68"
+  },
+  "tests/SocialConnect.Application.Tests/Users/Commands/LoginCommandValidatorTests.cs": {
+    "mtime": 1785062401.0842743,
+    "seen": 1791357795.7964025,
+    "ast_hash": "df3f505e262c1e7b006b869a6f2126c0",
+    "semantic_hash": "df3f505e262c1e7b006b869a6f2126c0"
+  },
+  "tests/SocialConnect.Application.Tests/Users/Commands/LoginUserCommandHandlerTests.cs": {
+    "mtime": 1785062401.0842743,
+    "seen": 1791357795.7964032,
+    "ast_hash": "6e90088eb438087c84ea0633423460b7",
+    "semantic_hash": "6e90088eb438087c84ea0633423460b7"
+  },
+  "tests/SocialConnect.Application.Tests/Users/Commands/LogoutCommandHandlerTests.cs": {
+    "mtime": 1785062401.084804,
+    "seen": 1791357795.796404,
+    "ast_hash": "08a52a56d9a3835635007be18bd2ff44",
+    "semantic_hash": "08a52a56d9a3835635007be18bd2ff44"
+  },
+  "tests/SocialConnect.Application.Tests/Users/Commands/RegisterUserCommandHandlerTests.cs": {
+    "mtime": 1785062401.084804,
+    "seen": 1791357795.7964048,
+    "ast_hash": "6144fdb6d4e61a1d2f07eb1aa696558f",
+    "semantic_hash": "6144fdb6d4e61a1d2f07eb1aa696558f"
+  },
+  "tests/SocialConnect.Application.Tests/Users/Commands/ResetPasswordCommandHandlerTests.cs": {
+    "mtime": 1785062401.084804,
+    "seen": 1791357795.7964056,
+    "ast_hash": "b59809fbf89599a58dc41aedb0c2f00c",
+    "semantic_hash": "b59809fbf89599a58dc41aedb0c2f00c"
+  },
+  "tests/SocialConnect.Application.Tests/Users/Commands/RevokeTokenCommandHandlerTests.cs": {
+    "mtime": 1785062401.085312,
+    "seen": 1791357795.7964063,
+    "ast_hash": "f839fb41c98a6fe22ea9e6e782fbbc9d",
+    "semantic_hash": "f839fb41c98a6fe22ea9e6e782fbbc9d"
+  },
+  "tests/SocialConnect.Application.Tests/Users/Commands/UpdateProfileCommandHandlerTests.cs": {
+    "mtime": 1785062401.085312,
+    "seen": 1791357795.7964072,
+    "ast_hash": "802a0b5ba952dfab2dafe8423c27b7d3",
+    "semantic_hash": "802a0b5ba952dfab2dafe8423c27b7d3"
+  },
+  "tests/SocialConnect.Application.Tests/Users/Commands/UploadCoverImageCommandHandlerTests.cs": {
+    "mtime": 1785062401.085836,
+    "seen": 1791357795.7964082,
+    "ast_hash": "73d71ac85e6464b3f47be23a819edc90",
+    "semantic_hash": "73d71ac85e6464b3f47be23a819edc90"
+  },
+  "tests/SocialConnect.Application.Tests/Users/Commands/UploadProfileImageCommandHandlerTests.cs": {
+    "mtime": 1785062401.085836,
+    "seen": 1791357795.796409,
+    "ast_hash": "d02ffe0ef3c1d330c870f6225edbfa0f",
+    "semantic_hash": "d02ffe0ef3c1d330c870f6225edbfa0f"
+  },
+  "tests/SocialConnect.Application.Tests/Users/Commands/VerifyEmailCommandHandlerTests.cs": {
+    "mtime": 1785062401.085836,
+    "seen": 1791357795.7964096,
+    "ast_hash": "ea0da3337bd61004724649a7f45c47c2",
+    "semantic_hash": "ea0da3337bd61004724649a7f45c47c2"
+  },
+  "tests/SocialConnect.Application.Tests/Users/Queries/GetUserByIdQueryHandlerTests.cs": {
+    "mtime": 1785062401.086344,
+    "seen": 1791357795.7964103,
+    "ast_hash": "5c2797695d4566f371aef3f8eaac3c34",
+    "semantic_hash": "5c2797695d4566f371aef3f8eaac3c34"
+  },
+  "tests/SocialConnect.Application.Tests/Users/Queries/SearchUsersQueryHandlerTests.cs": {
+    "mtime": 1785062401.086344,
+    "seen": 1791357795.796411,
+    "ast_hash": "0d03e375b33a58ae57a24d3bdfc22bc4",
+    "semantic_hash": "0d03e375b33a58ae57a24d3bdfc22bc4"
+  },
+  "tests/SocialConnect.Domain.Tests/Entities/MessagingTests.cs": {
+    "mtime": 1785062401.0869308,
+    "seen": 1791357795.796412,
+    "ast_hash": "998fd9132efe8a3a9135d0e8c11f0950",
+    "semantic_hash": "998fd9132efe8a3a9135d0e8c11f0950"
+  },
+  "tests/SocialConnect.Domain.Tests/Entities/PostTests.cs": {
+    "mtime": 1785062401.0869308,
+    "seen": 1791357795.7964125,
+    "ast_hash": "aa5f5fb4c0f08afc6e5ef2ecb301c234",
+    "semantic_hash": "aa5f5fb4c0f08afc6e5ef2ecb301c234"
+  },
+  "tests/SocialConnect.Domain.Tests/Entities/SocialAndNotificationTests.cs": {
+    "mtime": 1785062401.0869308,
+    "seen": 1791357795.7964132,
+    "ast_hash": "7c8f7b9062f6d99ffc6d0340991144cb",
+    "semantic_hash": "7c8f7b9062f6d99ffc6d0340991144cb"
+  },
+  "tests/SocialConnect.Domain.Tests/Entities/UserTests.cs": {
+    "mtime": 1785062401.0874386,
+    "seen": 1791357795.796414,
+    "ast_hash": "db5805f514700ed7ea2d8d9a8dca827f",
+    "semantic_hash": "db5805f514700ed7ea2d8d9a8dca827f"
+  },
+  "tests/SocialConnect.Domain.Tests/SocialConnect.Domain.Tests.csproj": {
+    "mtime": 1785062401.0874386,
+    "seen": 1791357795.7964146,
+    "ast_hash": "2f234329b894311612f3c9aba5c29446",
+    "semantic_hash": "2f234329b894311612f3c9aba5c29446"
+  },
+  "tests/SocialConnect.Domain.Tests/ValueObjects/EmailTests.cs": {
+    "mtime": 1785062401.0879474,
+    "seen": 1791357795.7964156,
+    "ast_hash": "973b436e1f8e86b43e76c55af6749a87",
+    "semantic_hash": "973b436e1f8e86b43e76c55af6749a87"
+  },
+  "tests/SocialConnect.Domain.Tests/ValueObjects/PasswordTests.cs": {
+    "mtime": 1785062401.0879474,
+    "seen": 1791357795.7964165,
+    "ast_hash": "cf1ae49631ccb6d59bfd43a4e4d685ea",
+    "semantic_hash": "cf1ae49631ccb6d59bfd43a4e4d685ea"
+  },
+  "tests/SocialConnect.Domain.Tests/ValueObjects/ValueObjectTests.cs": {
+    "mtime": 1785062401.0879474,
+    "seen": 1791357795.7964172,
+    "ast_hash": "9ad76af1c50af3d113ee52391fb44b2c",
+    "semantic_hash": "9ad76af1c50af3d113ee52391fb44b2c"
+  },
+  "tests/SocialConnect.Infrastructure.Tests/BackgroundJobs/CleanupExpiredTokensJobTests.cs": {
+    "mtime": 1785062401.0884721,
+    "seen": 1791357795.7964182,
+    "ast_hash": "9f374afdc383a9f422667773ebaeff67",
+    "semantic_hash": "9f374afdc383a9f422667773ebaeff67"
+  },
+  "tests/SocialConnect.Infrastructure.Tests/BackgroundJobs/CleanupOrphanUploadsJobTests.cs": {
+    "mtime": 1785062401.0884721,
+    "seen": 1791357795.7964191,
+    "ast_hash": "81f7fd0b3d236977886cc70dd864f9e9",
+    "semantic_hash": "81f7fd0b3d236977886cc70dd864f9e9"
+  },
+  "tests/SocialConnect.Infrastructure.Tests/BackgroundJobs/ScheduledPostPublishJobTests.cs": {
+    "mtime": 1785062401.089028,
+    "seen": 1791357795.79642,
+    "ast_hash": "05a666f51ffc74b8a6d902ac6d7008ba",
+    "semantic_hash": "05a666f51ffc74b8a6d902ac6d7008ba"
+  },
+  "tests/SocialConnect.Infrastructure.Tests/ServicesTests.cs": {
+    "mtime": 1785062401.089028,
+    "seen": 1791357795.7964208,
+    "ast_hash": "86061ab7dcfc2a40c7ee95ced34d725b",
+    "semantic_hash": "86061ab7dcfc2a40c7ee95ced34d725b"
+  },
+  "tests/SocialConnect.Infrastructure.Tests/SocialConnect.Infrastructure.Tests.csproj": {
+    "mtime": 1785062401.089028,
+    "seen": 1791357795.7964215,
+    "ast_hash": "00f0d7839bde00791a02a1ae66cd4835",
+    "semantic_hash": "00f0d7839bde00791a02a1ae66cd4835"
+  }
+}
